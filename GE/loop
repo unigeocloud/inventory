@@ -1,0 +1,4 @@
+for i do
+echo '-----------------------' $i
+rdseed -s -f $i | grep 'Ending date of this volume'
+done
