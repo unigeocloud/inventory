@@ -1,0 +1,1706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seiscomp xmlns="http://geofon.gfz-potsdam.de/ns/seiscomp3-schema/0.7" version="0.7">
+  <Inventory>
+    <sensor publicID="Sensor#20140110164454.013677.26" name="GFZ:JS1980:CMG-3T/JS/g=1500" response="ResponsePAZ#20140110164454.013807.27">
+      <description>GFZ:JS1980:CMG-3T/JS/g=1500</description>
+      <model>CMG-3T/JS</model>
+      <manufacturer>Guralp</manufacturer>
+      <type>BB</type>
+      <unit>M/S</unit>
+      <remark/>
+    </sensor>
+    <sensor publicID="Sensor#20140110164454.006802.12" name="GFZ:JS1980:CMG-40T/JS/g=2000" response="ResponsePAZ#20140110164454.006927.13">
+      <description>GFZ:JS1980:CMG-40T/JS/g=2000</description>
+      <model>CMG-40T/JS</model>
+      <manufacturer>Guralp</manufacturer>
+      <type>BB</type>
+      <unit>M/S</unit>
+      <remark/>
+    </sensor>
+    <sensor publicID="Sensor#20140110164454.002168.5" name="GFZ:JS1980:L4-3D/g=170" response="ResponsePAZ#20140110164454.002317.6">
+      <description>GFZ:JS1980:L4-3D/g=170</description>
+      <model>L4-3D</model>
+      <manufacturer>Mark</manufacturer>
+      <type>SP</type>
+      <unit>M/S</unit>
+      <remark/>
+    </sensor>
+    <sensor publicID="Sensor#20140110164454.037709.62" name="GFZ:JS1980:Reftek-151/120/g=2000" response="ResponsePAZ#20140110164454.037839.63">
+      <description>GFZ:JS1980:Reftek-151/120/g=2000</description>
+      <unit>M/S</unit>
+      <remark/>
+    </sensor>
+    <datalogger publicID="Datalogger#20140110164454.018152.36" name="GFZ:JS1980:DM24/g=392157">
+      <description>GFZ:JS1980:DM24/g=392157</description>
+      <digitizerModel>DM24</digitizerModel>
+      <digitizerManufacturer>Guralp</digitizerManufacturer>
+      <recorderModel>DM24</recorderModel>
+      <recorderManufacturer>Guralp</recorderManufacturer>
+      <gain>392157</gain>
+      <maxClockDrift>0</maxClockDrift>
+      <remark/>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <analogueFilterChain/>
+        <digitalFilterChain>ResponseFIR#20140110164454.01827.37 ResponseFIR#20140110164454.018492.38 ResponseFIR#20140110164454.018688.39 ResponseFIR#20140110164454.018896.40 ResponseFIR#20140110164454.01909.41 ResponseFIR#20140110164454.019535.42 ResponseFIR#20140110164454.023166.44</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger#20140110164454.007457.14" name="GFZ:JS1980:EUROPA-T/g=4194304">
+      <description>GFZ:JS1980:EUROPA-T/g=4194304</description>
+      <digitizerModel>TRID</digitizerModel>
+      <digitizerManufacturer>Nanometrics</digitizerManufacturer>
+      <recorderModel>TRID</recorderModel>
+      <recorderManufacturer>Nanometrics</recorderManufacturer>
+      <gain>4194304</gain>
+      <maxClockDrift>0</maxClockDrift>
+      <remark/>
+      <decimation sampleRateNumerator="40" sampleRateDenominator="1">
+        <analogueFilterChain>ResponsePAZ#20140110164454.007574.15</analogueFilterChain>
+        <digitalFilterChain>ResponseFIR#20140110164454.007823.16 ResponseFIR#20140110164454.008384.17 ResponseFIR#20140110164454.008672.18 ResponseFIR#20140110164454.009011.19</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger#20140110164454.003224.7" name="GFZ:JS1980:REFTEK-130/g=629121">
+      <description>GFZ:JS1980:REFTEK-130/g=629121</description>
+      <digitizerModel>REFTEK-130</digitizerModel>
+      <digitizerManufacturer>Refraction Technologies</digitizerManufacturer>
+      <recorderModel>REFTEK-130</recorderModel>
+      <recorderManufacturer>Refraction Technologies</recorderManufacturer>
+      <gain>629121</gain>
+      <maxClockDrift>0</maxClockDrift>
+      <remark/>
+      <decimation sampleRateNumerator="40" sampleRateDenominator="1">
+        <analogueFilterChain/>
+        <digitalFilterChain/>
+      </decimation>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <analogueFilterChain/>
+        <digitalFilterChain/>
+      </decimation>
+    </datalogger>
+    <responsePAZ publicID="ResponsePAZ#20140110164454.013807.27" name="GFZ:JS1980:CMG-3T/JS/g=1500">
+      <type>A</type>
+      <gain>1500</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>571508000</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>5</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.1486,0.1486) (-0.1486,-0.1486) (-502.65,0) (-1005,0) (-1131,0)</poles>
+      <remark/>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20140110164454.006927.13" name="GFZ:JS1980:CMG-40T/JS/g=2000">
+      <type>A</type>
+      <gain>2000</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>9.09214e+11</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>6</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.1486,0.1486) (-0.1486,-0.1486) (-391.96,850.69) (-391.96,-850.69) (-471.24,0) (-2199.1,0)</poles>
+      <remark/>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20140110164454.002317.6" name="GFZ:JS1980:L4-3D/g=170">
+      <type>A</type>
+      <gain>170</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1.4142</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-4.4429,4.4429) (-4.4429,-4.4429)</poles>
+      <remark/>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20140110164454.037839.63" name="GFZ:JS1980:Reftek-151/120/g=2000">
+      <type>A</type>
+      <gain>2000</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>63165</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>4</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.03702,0.03702) (-0.03702,-0.03792) (-177.72,177.72) (-177.72,-177.72)</poles>
+      <remark/>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20140110164454.007574.15" name="GFZ:JS1980:TRID_digipaz_2">
+      <type>A</type>
+      <gain>1</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>13338.89</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>0</numberOfZeros>
+      <numberOfPoles>1</numberOfPoles>
+      <zeros/>
+      <poles>(-13338.88,0)</poles>
+      <remark/>
+    </responsePAZ>
+    <responseFIR publicID="ResponseFIR#20140110164454.01827.37" name="GFZ:JS1980:DM24_FIR_1">
+      <gain>1</gain>
+      <decimationFactor>8</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>15</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>0.000244 0.000977 0.002441 0.004883 0.008545 0.013672 0.020508 0.029297 0.039307 0.049805 0.060059 0.069336 0.076904 0.082031 0.083984</coefficients>
+      <remark/>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20140110164454.018492.38" name="GFZ:JS1980:DM24_FIR_2">
+      <gain>1</gain>
+      <decimationFactor>2</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>7</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>0.000244 0.00293 0.016112 0.053711 0.12085 0.193359 0.225586</coefficients>
+      <remark/>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20140110164454.018688.39" name="GFZ:JS1980:DM24_FIR_3">
+      <gain>1</gain>
+      <decimationFactor>2</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>7</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>0.000244 0.00293 0.016112 0.053711 0.12085 0.193359 0.225586</coefficients>
+      <remark/>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20140110164454.018896.40" name="GFZ:JS1980:DM24_FIR_4">
+      <gain>1</gain>
+      <decimationFactor>2</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>7</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>0.000244 0.00293 0.016112 0.053711 0.12085 0.193359 0.225586</coefficients>
+      <remark/>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20140110164454.01909.41" name="GFZ:JS1980:DM24_FIR_5">
+      <gain>1</gain>
+      <decimationFactor>2</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>101</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>-1e-06 -6e-06 -3e-06 -4.3e-05 -5e-06 1e-06 2.3e-05 1e-06 -5.3e-05 -0.000367 0.000376 0.000854 3.1e-05 -0.001276 -0.000911 0.001277 0.002152 -0.000462 -0.003338 -0.001409 0.003771 0.004194 -0.002643 -0.007201 -0.000644 0.009184 0.006084 -0.008578 -0.01274 0.003982 0.018626 0.005205 -0.020941 -0.018163 0.016667 0.032245 -0.003466 -0.042953 -0.019326 0.044309 0.049791 -0.029416 -0.082608 -0.009342 0.107552 0.08166 -0.10311 -0.204208 -3.1e-05 0.390433 0.589958 0.390433 -3.1e-05 -0.204208 -0.10311 0.08166 0.107552 -0.009342 -0.082608 -0.029416 0.049791 0.044309 -0.019326 -0.042953 -0.003466 0.032245 0.016667 -0.018163 -0.020941 0.005205 0.018626 0.003982 -0.01274 -0.008578 0.006084 0.009184 -0.000644 -0.007201 -0.002643 0.004194 0.003771 -0.001409 -0.003338 -0.000462 0.002152 0.001277 -0.000911 -0.001276 3.1e-05 0.000854 0.000376 -0.000367 -0.00041 2.5e-05 0.000262 0.000121 -0.0001 -0.000162 -9.8e-05 -2.9e-05 -3e-06</coefficients>
+      <remark/>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20140110164454.019535.42" name="GFZ:JS1980:DM24_FIR_6">
+      <gain>1</gain>
+      <decimationFactor>10</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>596</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>-1.4901161e-08 -2.9802322e-08 -4.4703484e-08 -5.9604645e-08 -8.9406967e-08 -8.9406967e-08 -8.9406967e-08 -8.9406967e-08 -5.9604645e-08 0 5.9604645e-08 1.3411045e-07 2.2351742e-07 2.9802322e-07 3.7252903e-07 4.1723251e-07 4.3213367e-07 4.0233135e-07 3.2782555e-07 1.937151e-07 2.9802322e-08 -1.7881393e-07 -3.8743019e-07 -6.1094761e-07 -8.046627e-07 -9.5367432e-07 -1.0430813e-06 -1.0430813e-06 -9.5367432e-07 -7.4505806e-07 -4.61936e-07 -8.9406967e-08 3.2782555e-07 7.7486038e-07 1.2069941e-06 1.5795231e-06 1.847744e-06 1.9967556e-06 1.9669533e-06 1.7732382e-06 1.4007092e-06 8.6426735e-07 2.0861626e-07 -5.364418e-07 -1.3113022e-06 -2.0265579e-06 -2.6375055e-06 -3.0845404e-06 -3.2931566e-06 -3.2484531e-06 -2.9206276e-06 -2.30968e-06 -1.4454126e-06 -3.8743019e-07 7.7486038e-07 1.9669533e-06 3.0845404e-06 4.0233135e-06 4.6938658e-06 5.0216913e-06 4.9322844e-06 4.4256449e-06 3.516674e-06 2.2351742e-06 6.8545342e-07 -1.0281801e-06 -2.771616e-06 -4.4107437e-06 -5.7667494e-06 -6.7353249e-06 -7.1972609e-06 -7.0929527e-06 -6.377697e-06 -5.081296e-06 -3.2931566e-06 -1.1026859e-06 1.296401e-06 3.7401915e-06 6.005168e-06 7.8976154e-06 9.2536211e-06 9.9092722e-06 9.7751617e-06 8.8065863e-06 7.0631504e-06 4.6342611e-06 1.6987324e-06 -1.5497208e-06 -4.8428774e-06 -7.9125166e-06 -1.0475516e-05 -1.2308359e-05 -1.3202429e-05 -1.3053417e-05 -1.1816621e-05 -9.5367432e-06 -6.3478947e-06 -2.4735928e-06 1.7881393e-06 6.1094761e-06 1.0147691e-05 1.3530254e-05 1.5959144e-05 1.7181039e-05 1.7032027e-05 1.5482306e-05 1.2561679e-05 8.4936619e-06 3.516674e-06 -1.9669533e-06 -7.5399876e-06 -1.2740493e-05 -1.7121434e-05 -2.028048e-05 -2.1904707e-05 -2.1800399e-05 -1.9878149e-05 -1.6242266e-05 -1.1116266e-05 -4.8577785e-06 2.0712614e-06 9.1195107e-06 1.5720725e-05 2.1293759e-05 2.5346875e-05 2.7477741e-05 2.7433038e-05 2.5138259e-05 2.0682812e-05 1.4334917e-05 6.5565109e-06 -2.0712614e-06 -1.0862947e-05 -1.911819e-05 -2.6121736e-05 -3.1247735e-05 -3.400445e-05 -3.4078956e-05 -3.1366944e-05 -2.5957823e-05 -1.8209219e-05 -8.687377e-06 1.9222498e-06 1.2755394e-05 2.2962689e-05 3.1650066e-05 3.8072467e-05 4.1604042e-05 4.1857362e-05 3.8683414e-05 3.2216311e-05 2.2873282e-05 1.1324883e-05 -1.5646219e-06 -1.4796853e-05 -2.7269125e-05 -3.7968159e-05 -4.5910478e-05 -5.0380826e-05 -5.0872564e-05 -4.722178e-05 -3.9577484e-05 -2.8416514e-05 -1.4558434e-05 9.8347664e-07 1.6957521e-05 3.2097101e-05 4.5105815e-05 5.4866076e-05 6.0468912e-05 6.1303377e-05 5.7145953e-05 4.8190355e-05 3.4973025e-05 1.847744e-05 -7.4505806e-08 -1.9237399e-05 -3.7431717e-05 -5.3167343e-05 -6.505847e-05 -7.2002411e-05 -7.3283911e-05 -6.8619847e-05 -5.8203936e-05 -4.2691827e-05 -2.3201108e-05 -1.1920929e-06 2.1591783e-05 4.3332577e-05 6.2197447e-05 7.6577067e-05 8.5130334e-05 8.700788e-05 8.1822276e-05 6.9797039e-05 5.1707029e-05 2.8848648e-05 2.9355288e-06 -2.4005771e-05 -4.978478e-05 -7.2285533e-05 -8.9541078e-05 -0.00010000169 -0.0001026094 -9.6932054e-05 -8.3163381e-05 -6.2197447e-05 -3.5539269e-05 -5.2154064e-06 2.643466e-05 5.6833029e-05 8.3476305e-05 0.00010408461 0.0001167804 0.00012032688 0.00011414289 9.8481774e-05 7.4341893e-05 4.3451786e-05 8.136034e-06 -2.8833747e-05 -6.4492226e-05 -9.5874071e-05 -0.00012032688 -0.00013564527 -0.00014033914 -0.00013370812 -0.00011599064 -8.8334084e-05 -5.2720308e-05 -1.1831522e-05 3.1143427e-05 7.2747469e-05 0.00010953844 0.00013840199 0.00015677512 0.00016285479 0.00015582144 0.00013591349 0.00010439754 6.352365e-05 1.6406178e-05 -3.3304095e-05 -8.161366e-05 -0.00012454391 -0.00015844405 -0.00018034875 -0.00018811226 -0.00018076599 -0.00015850365 -0.00012275577 -7.6085329e-05 -2.2009015e-05 3.5241246e-05 9.1090798e-05 0.00014095008 0.00018060207 0.0002065599 0.00021636486 0.00020879507 0.00018404424 0.000143677 9.059906e-05 2.8818846e-05 -3.6850572e-05 -0.00010116398 -0.00015883148 -0.00020501018 -0.00023564696 -0.00024786592 -0.00024020672 -0.00021281838 -0.00016742945 -0.00010730326 -3.6984682e-05 3.8057566e-05 0.00011181831 0.00017827749 0.00023183227 0.00026783347 0.00028289855 0.00027531385 0.000245139 0.00019431114 0.00012646616 4.671514e-05 -3.8728118e-05 -0.00012303889 -0.00019934773 -0.00026124716 -0.00030334294 -0.00032176077 -0.0003144443 -0.00028139353 -0.00022467971 -0.00014837086 -5.8233738e-05 3.8743019e-05 0.00013481081 0.00022211671 0.00029340386 0.00034245849 0.00036479533 0.0003579855 0.00032192469 0.00025886297 0.00017333031 7.1749091e-05 -3.7953258e-05 -0.00014705956 -0.00024668872 -0.0003284961 -0.00038544834 -0.00041235983 -0.00040635467 -0.00036717951 -0.00029730797 -0.00020170212 -8.7574124e-05 3.6194921e-05 0.00015978515 0.00027310848 0.00036674738 0.00043265522 0.00046485662 0.00045998394 0.00041763484 0.00034043193 0.00023387372 0.00010599196 -3.3304095e-05 -0.00017289817 -0.00030149519 -0.00040838122 -0.00048440695 -0.00052271783 -0.00051939487 -0.00047381222 -0.00038875639 -0.00027029216 -0.00012733042 2.9042363e-05 0.00018638372 0.00033195317 0.00045366585 0.00054112077 0.0005864799 0.0005851835 0.00053630769 0.00044286251 0.00031146407 0.00015199184 -2.3186207e-05 -0.0002001673 -0.00036460161 -0.00050289929 -0.00060325861 -0.00065672398 -0.00065797567 -0.00060583651 -0.00050340593 -0.00035795569 -0.00018042326 1.5467405e-05 0.00021415949 0.00039958954 0.00055642426 0.00067132711 0.00073410571 0.00073857605 0.00068315864 0.00057114661 0.00041045249 0.00021311641 -5.5730343e-06 -0.00022831559 -0.00043709576 -0.0006146729 -0.00074599683 -0.00081944466 -0.00082786381 -0.00076925755 -0.00064700842 -0.0004697293 -0.00025068223 -6.839633e-06 0.0002425462 0.0004773289 0.00067815185 0.00082799792 0.0009136945 0.00092695653 0.00086525083 0.00073204935 0.00053671002 0.000293836 2.2187829e-05 -0.00025677681 -0.00052057207 -0.00074745715 -0.00091828406 -0.0010180175 -0.0010371506 -0.00097249448 -0.00082756579 -0.00061254203 -0.00034342706 -4.0978193e-05 0.00027091801 0.000567168 0.00082337856 0.0010179579 0.0011338592 0.0011600703 0.0010926574 0.00093518198 0.00069859624 0.00040048361 6.3806772e-05 -0.0002848953 -0.00061756372 -0.00090688467 -0.0011284947 -0.0012630075 -0.0012977421 -0.0012278557 -0.00105685 -0.00079657137 -0.00046630204 -9.1403723e-05 0.00029858947 0.00067235529 0.00099922717 0.0012516975 0.0014077574 0.001452744 0.0013807267 0.0011951327 0.00090865791 0.00054249167 0.00012467802 -0.00031194091 -0.00073233247 -0.0011020154 -0.0013899505 -0.0015710592 -0.0016283989 -0.0015547276 -0.0013532639 -0.0010376722 -0.00063115358 -0.00016479194 0.00032484531 0.00079850852 0.0012174249 0.0015464127 0.0017568469 0.0018291175 0.0017544031 0.0015355796 0.0011873096 0.00073504448 0.00021326542 -0.00033722818 -0.00087235868 -0.0013483465 -0.0017252862 -0.0019703805 -0.0020608306 -0.0019858629 -0.0017478764 -0.0013625622 -0.00085788965 -0.00027212501 0.0003489852 0.00095583498 0.0014988333 0.0019324422 0.0022189617 0.0023317486 0.0022576153 0.0019982457 0.0015703887 0.0010048151 0.00034421682 -0.00036002696 -0.0010517836 -0.0016745776 -0.0021761805 -0.0025129467 -0.0026535392 -0.0025817603 -0.0022982061 -0.0018207133 -0.0011832267 -0.00043353438 0.00037029386 0.0011643618 0.001883924 0.0024686307 0.0028675199 0.0030433834 0.0029761195 0.0026648045 0.0021282732 0.0014040917 0.00054608285 -0.00037971139 -0.0012999028 -0.0021395683 -0.0028283 -0.0033058971 -0.0035276115 -0.0034681857 -0.0031243712 -0.0025158972 -0.0016844869 -0.00069116056 0.00038819015 0.0014684051 0.0024617314 0.0032847822 0.0038653761 0.0041487515 0.0041024983 0.0037198365 0.0030210167 0.0020525306 0.0008842051 -0.00039567053 -0.0016867965 -0.0028845817 -0.0038884133 -0.0046098083 -0.0049800575 -0.0049563646 -0.0045262277 -0.00370951 -0.0025580525 -0.0011527091 0.00040210783 0.001985833 0.0034708232 0.0047322661 0.0056582838 0.0061594099 0.0061766505 0.0056874156 0.0047089309 0.0032985955 0.0015510768 -0.00040744245 -0.0024278462 -0.0043489337 -0.0060094744 -0.0072610825 -0.0079804361 -0.0080803782 -0.0075185001 -0.006302923 -0.0044943094 -0.0022040308 0.00041162968 0.0031610429 0.0058299601 0.0081966519 0.010048419 0.011198416 0.011501536 0.010868102 0.0092744082 0.0067691207 0.0034749806 -0.00041465461 -0.0046443045 -0.0089096129 -0.012874499 -0.016191542 -0.018523946 -0.019567996 -0.019074455 -0.01686731 -0.012858912 -0.0070598722 0.00041647255 0.009356007 0.019451886 0.030318514 0.041510671 0.052546695 0.062934399 0.072198108 0.079905152 0.085690379 0.089276925 0.09049201</coefficients>
+      <remark/>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20140110164454.023166.44" name="GFZ:JS1980:DM24_FIR_7">
+      <gain>1</gain>
+      <decimationFactor>2</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>248</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>-5.9604645e-08 0 5.9604645e-08 1.1920929e-07 -1.1920929e-07 -2.3841858e-07 1.1920929e-07 4.1723251e-07 0 -5.9604645e-07 -2.3841858e-07 7.1525574e-07 5.9604645e-07 -7.1525574e-07 -1.013279e-06 5.9604645e-07 1.5497208e-06 -1.7881393e-07 -2.0265579e-06 -4.7683716e-07 2.3245811e-06 1.4305115e-06 -2.3245811e-06 -2.5629997e-06 1.847744e-06 3.695488e-06 -9.5367432e-07 -4.7087669e-06 -5.364418e-07 5.364418e-06 2.4437904e-06 -5.4240227e-06 -4.7683716e-06 4.6491623e-06 7.0929527e-06 -2.9802322e-06 -9.2387199e-06 2.9802322e-07 1.0669231e-05 3.2782555e-06 -1.1086464e-05 -7.5101852e-06 1.013279e-05 1.1920929e-05 -7.5101852e-06 -1.6033649e-05 3.0994415e-06 1.9133091e-05 2.8610229e-06 -2.0623207e-05 -1.001358e-05 1.9848347e-05 1.7821789e-05 -1.6391277e-05 -2.5391579e-05 9.9539757e-06 3.1590462e-05 -7.1525574e-07 -3.5464764e-05 -1.0788441e-05 3.6001205e-05 2.3722649e-05 -3.2246113e-05 -3.6776066e-05 2.3782253e-05 4.8458576e-05 -1.0669231e-05 -5.7041645e-05 -6.6757202e-06 6.0796738e-05 2.6941299e-05 -5.8352947e-05 -4.8398972e-05 4.8696995e-05 6.878376e-05 -3.1471252e-05 -8.559227e-05 7.212162e-06 9.6201897e-05 2.270937e-05 -9.8049641e-05 -5.6028366e-05 8.9466572e-05 8.9585781e-05 -6.9320202e-05 -0.00011974573 3.772974e-05 0.0001424551 3.8743019e-06 -0.00015383959 -5.2630901e-05 0.00015074015 0.00010460615 -0.0001308918 -0.00015461445 9.3519688e-05 0.00019699335 -3.9696693e-05 -0.00022578239 -2.7596951e-05 0.00023567677 0.00010335445 -0.00022250414 -0.00018101931 0.00018393993 0.00025254488 -0.00011992455 -0.00030958652 3.3140182e-05 0.00034373999 7.0869923e-05 -0.00034797192 -0.00018399954 0.00031727552 0.00029581785 -0.00024944544 -0.00039464235 0.00014597178 0.0004684329 -1.2159348e-05 -0.00050592422 -0.00014269352 0.00049799681 0.00030595064 -0.0004389286 -0.00046211481 0.00032758713 0.00059455633 -0.00016772747 -0.0006865263 -3.1232834e-05 0.00072330236 0.00025475025 -0.00069361925 -0.0004837513 0.0005915761 0.00069624186 -0.00041753054 -0.00086897612 0.00017940998 0.00097954273 0.0001077652 -0.001009047 -0.00042194128 0.00094413757 0.00073581934 -0.00077921152 -0.0010185838 0.00051772594 0.0012387037 -0.00017309189 -0.0013669133 -0.00023144484 0.0013794303 0.00066399574 -0.0012609363 -0.0010861158 0.0010068417 0.0014558434 -0.00062537193 -0.0017312169 0.00013786554 0.0018745065 0.00042140484 -0.0018563271 -0.0010075569 0.0016592741 0.0015676618 -0.0012812018 -0.0020453334 0.00073683262 0.0023854971 -5.8472157e-05 -0.0025398135 -0.00070518255 0.0024721622 0.0014918447 -0.0021630526 -0.0022298694 0.0016136765 0.0028441548 -0.00084781647 -0.003262639 -8.7857246e-05 0.0034232736 0.0011253953 -0.0032808781 -0.0021798015 0.0028132796 0.0031546354 -0.0020257235 -0.0039498806 0.00095337629 0.0044702291 0.00033837557 -0.0046343803 -0.0017566085 0.0043838024 0.0031859279 -0.0036905408 -0.0044961572 0.0025627613 0.0055519938 -0.0010485053 -0.0062241554 -0.00076419115 0.0064008236 0.0027500987 -0.0059993267 -0.0047528148 0.0049758554 0.0065940022 -0.0033336878 -0.0080848336 0.0011284351 0.0090395808 0.0015304685 -0.0092895031 -0.0044813156 0.0086966157 0.0075156093 -0.0071663857 -0.010386407 0.0046575069 0.012818873 -0.0011888742 -0.014521122 -0.0031578541 0.015194237 0.0082397461 -0.014536679 -0.013858736 0.012238562 0.019771576 -0.007954061 -0.025703967 0.0012265444 0.031366527 0.0087025166 -0.036472917 -0.0234254 0.040758014 0.047181845 -0.043994844 -0.095913231 0.046009839 0.31486189 0.45330608</coefficients>
+      <remark/>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20140110164454.007823.16" name="GFZ:JS1980:TRID_FIR_1">
+      <gain>1</gain>
+      <decimationFactor>15</decimationFactor>
+      <delay>0</delay>
+      <correction>-81.999</correction>
+      <numberOfCoefficients>83</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>-4.04791e-10 -1.39029e-10 6.728e-10 2.75797e-09 7.54651e-09 1.76668e-08 3.76936e-08 7.52313e-08 1.42425e-07 2.57999e-07 4.49904e-07 7.58656e-07 1.24139e-06 1.97658e-06 3.06939e-06 4.65728e-06 6.91569e-06 1.00631e-05 1.43649e-05 2.0135e-05 2.77346e-05 3.75661e-05 5.00617e-05 6.56652e-05 8.48049e-05 0.000107859 0.000135108 0.000166685 0.000202505 0.0002422 0.000285038 0.00032985 0.000374956 0.000418099 0.0004564 0.000486339 0.000503757 0.000503913 0.00048158 0.000431195 0.000347068 0.000223655 5.58818e-05 -0.000160475 -0.000428365 -0.000749008 -0.00112143 -0.00154201 -0.00200406 -0.00249746 -0.00300841 -0.00351925 -0.00400852 -0.00445107 -0.00481847 -0.00507953 -0.00520107 -0.00514889 -0.00488884 -0.00438813 -0.00361664 -0.0025484 -0.00116293 0.00055335 0.00260595 0.00499129 0.00769592 0.0106961 0.0139576 0.0174362 0.0210783 0.0248217 0.0285976 0.0323318 0.0359474 0.0393664 0.0425127 0.0453141 0.0477047 0.0496275 0.0510357 0.0518947 0.0521834</coefficients>
+      <remark/>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20140110164454.008384.17" name="GFZ:JS1980:TRID_FIR_10">
+      <gain>1</gain>
+      <decimationFactor>5</decimationFactor>
+      <delay>0</delay>
+      <correction>-35</correction>
+      <numberOfCoefficients>36</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>-1.400229e-08 -1.255059e-07 -6.074921e-07 -2.046866e-06 -5.236352e-06 -1.042766e-05 -1.566514e-05 -1.467138e-05 3.866903e-06 5.254917e-05 0.0001345447 0.0002273285 0.0002694088 0.0001653887 -0.0001754205 -0.0007649912 -0.001452111 -0.001881641 -0.001562383 -7.930603e-05 0.002588435 0.005777669 0.008077698 0.007665307 0.003066022 -0.005859562 -0.01711852 -0.02645966 -0.02823533 -0.01718375 0.009394698 0.04991073 0.09803478 0.1439399 0.1769958 0.1890346</coefficients>
+      <remark/>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20140110164454.008672.18" name="GFZ:JS1980:TRID_FIR_11">
+      <gain>1</gain>
+      <decimationFactor>5</decimationFactor>
+      <delay>0</delay>
+      <correction>-56</correction>
+      <numberOfCoefficients>57</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>6.24153e-10 1.470217e-08 2.924648e-08 1.675816e-08 -9.459693e-08 -4.005292e-07 -9.373652e-07 -1.530435e-06 -1.645991e-06 -4.078704e-07 3.030094e-06 8.685992e-06 1.476603e-05 1.713675e-05 1.012814e-05 -1.072856e-05 -4.439651e-05 -8.029797e-05 -9.761762e-05 -7.094869e-05 1.692091e-05 0.0001585078 0.0003094936 0.0003912802 0.0003155885 2.919058e-05 -0.0004362724 -0.0009354174 -0.001228394 -0.001061469 -0.0002939815 0.0009756478 0.002352455 0.003215585 0.002933434 0.001171051 -0.001829548 -0.005145646 -0.007361208 -0.007056359 -0.003467655 0.002935113 0.01024857 0.01551828 0.01570616 0.008987865 -0.004081172 -0.0200454 -0.03303498 -0.03628456 -0.0243088 0.004958794 0.04884525 0.1000148 0.1480753 0.1823112 0.1947111</coefficients>
+      <remark/>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20140110164454.009011.19" name="GFZ:JS1980:TRID_FIR_12">
+      <gain>1</gain>
+      <decimationFactor>2</decimationFactor>
+      <delay>0</delay>
+      <correction>-111</correction>
+      <numberOfCoefficients>112</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>-2.4877e-10 4.73744e-09 1.24032e-08 2.18423e-09 -2.9735e-08 -2.7741e-08 4.8235e-08 9.04852e-08 -4.3772e-08 -2.02925e-07 -2.93251e-08 3.57677e-07 2.38076e-07 -5.05054e-07 -6.56661e-07 5.29514e-07 1.33303e-06 -2.35391e-07 -2.23456e-06 -6.43189e-07 3.17885e-06 2.39189e-06 -3.76643e-06 -5.21313e-06 3.34388e-06 9.06984e-06 -1.0342e-06 -1.34948e-05 -4.1282e-06 1.74081e-05 1.29325e-05 -1.90112e-05 -2.55982e-05 1.58385e-05 4.12985e-05 -5.05136e-06 -5.76943e-05 -1.59734e-05 7.06232e-05 4.87621e-05 -7.41183e-05 -9.2656e-05 6.09281e-05 0.000143704 -2.36571e-05 -0.000193818 -4.34607e-05 0.000230529 0.0001423 -0.000237697 -0.00026842 0.00019742 0.000408986 -9.32264e-05 -0.000541667 -8.56506e-05 0.000635146 0.000339424 -0.000651794 -0.000653162 0.000552734 0.000993533 -0.000305133 -0.00130802 -0.000108987 0.00152764 0.000683646 -0.00157381 -0.00138119 0.00136932 0.00212784 -0.000852739 -0.00281433 -5.43598e-06 0.00330293 0.00118724 -0.00344149 -0.00261502 0.00308386 0.00414554 -0.00211493 -0.00557267 0.000477543 0.00664017 0.00180254 -0.00706464 -0.00459738 0.00656694 0.0076669 -0.00490895 -0.0106603 0.00193106 0.0131289 0.00241487 -0.0145476 -0.00804248 0.0143373 0.0147221 -0.0118736 -0.022089 0.00645106 0.0296694 0.00287172 -0.0369222 -0.0177763 0.0432915 0.0424836 -0.0482648 -0.0928087 0.0514286 0.313777 0.447486</coefficients>
+      <remark/>
+    </responseFIR>
+    <network publicID="Network#20140110164454.001197.2" code="JS">
+      <start>1980-01-01T00:00:00.0000Z</start>
+      <description>Jordanian Seismological Network</description>
+      <institutions>JSO</institutions>
+      <region>Jordan</region>
+      <type>BB/VBB</type>
+      <netClass>p</netClass>
+      <archive>GFZ</archive>
+      <restricted>false</restricted>
+      <shared>true</shared>
+      <remark/>
+      <station publicID="Station#20140129162638.848759.3" code="AJLJ" archiveNetworkCode="JS">
+        <start>2004-01-01T00:00:00.0000Z</start>
+        <description>Station Ajlon, Jordan</description>
+        <latitude>32.327</latitude>
+        <longitude>35.727</longitude>
+        <elevation>1175</elevation>
+        <place>Ajlon</place>
+        <country>Jordan</country>
+        <archive>GFZ</archive>
+        <restricted>true</restricted>
+        <shared>true</shared>
+        <remark/>
+        <sensorLocation publicID="SensorLocation#20140129162638.84881.4" code="">
+          <start>2004-01-01T00:00:00.0000Z</start>
+          <latitude>32.327</latitude>
+          <longitude>35.727</longitude>
+          <elevation>1175</elevation>
+          <stream code="HHE" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>2004-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHN" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>2004-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHZ" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>2004-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20140129162638.852561.8" code="AQBJ" archiveNetworkCode="JS">
+        <start>1989-01-01T00:00:00.0000Z</start>
+        <description>Station JS station, Jordan</description>
+        <latitude>29.728</latitude>
+        <longitude>35.05</longitude>
+        <elevation>170</elevation>
+        <place>JS station</place>
+        <country>Jordan</country>
+        <archive>GFZ</archive>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <remark/>
+        <sensorLocation publicID="SensorLocation#20140129162638.85259.9" code="">
+          <start>1989-01-01T00:00:00.0000Z</start>
+          <latitude>29.728</latitude>
+          <longitude>35.05</longitude>
+          <elevation>170</elevation>
+          <stream code="HHE" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>1989-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHN" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>1989-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHZ" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>1989-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20140110164454.005908.10" code="ASF" archiveNetworkCode="JS">
+        <start>2002-01-01T00:00:00.0000Z</start>
+        <description>Station Asfer, Jordan</description>
+        <latitude>32.173</latitude>
+        <longitude>36.8473</longitude>
+        <elevation>928.5</elevation>
+        <place>Asfer</place>
+        <country>Jordan</country>
+        <archive>GFZ</archive>
+        <restricted>true</restricted>
+        <shared>true</shared>
+        <remark/>
+        <sensorLocation publicID="SensorLocation#20140110164454.005935.11" code="">
+          <start>2002-01-01T00:00:00.0000Z</start>
+          <latitude>32.173</latitude>
+          <longitude>36.8473</longitude>
+          <elevation>928.5</elevation>
+          <stream code="BHE" datalogger="Datalogger#20140110164454.007457.14" sensor="Sensor#20140110164454.006802.12">
+            <start>2002-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>40</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>8388608000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHN" datalogger="Datalogger#20140110164454.007457.14" sensor="Sensor#20140110164454.006802.12">
+            <start>2002-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>40</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>8388608000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHZ" datalogger="Datalogger#20140110164454.007457.14" sensor="Sensor#20140110164454.006802.12">
+            <start>2002-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>40</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>8388608000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20140129162638.860218.24" code="AZQJ" archiveNetworkCode="JS">
+        <start>2006-01-01T00:00:00.0000Z</start>
+        <description>Station Al-Azraq, Jordan</description>
+        <latitude>31.7469</latitude>
+        <longitude>36.76</longitude>
+        <elevation>400</elevation>
+        <place>Al-Azraq</place>
+        <country>Jordan</country>
+        <archive>GFZ</archive>
+        <restricted>true</restricted>
+        <shared>true</shared>
+        <remark/>
+        <sensorLocation publicID="SensorLocation#20140129162638.860246.25" code="">
+          <start>2006-01-01T00:00:00.0000Z</start>
+          <latitude>31.7469</latitude>
+          <longitude>36.76</longitude>
+          <elevation>400</elevation>
+          <stream code="HHE" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.013677.26">
+            <start>2006-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>2</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>943681500</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHN" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.013677.26">
+            <start>2006-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>2</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>943681500</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHZ" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.013677.26">
+            <start>2006-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>2</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>943681500</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20140129162638.86207.28" code="BYRJ" archiveNetworkCode="JS">
+        <start>1990-01-01T00:00:00.0000Z</start>
+        <description>Station Bayer, Jordan</description>
+        <latitude>30.846</latitude>
+        <longitude>36.5</longitude>
+        <elevation>1008</elevation>
+        <place>Bayer</place>
+        <country>Jordan</country>
+        <archive>GFZ</archive>
+        <restricted>true</restricted>
+        <shared>true</shared>
+        <remark/>
+        <sensorLocation publicID="SensorLocation#20140129162638.862097.29" code="">
+          <start>1990-01-01T00:00:00.0000Z</start>
+          <latitude>30.846</latitude>
+          <longitude>36.5</longitude>
+          <elevation>1008</elevation>
+          <stream code="HHE" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.013677.26">
+            <start>1990-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>943681500</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHN" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.013677.26">
+            <start>1990-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>943681500</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHZ" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.013677.26">
+            <start>1990-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>943681500</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20140129162638.862959.30" code="DRHJ" archiveNetworkCode="JS">
+        <start>1995-01-01T00:00:00.0000Z</start>
+        <description>Station Derra, Jordan</description>
+        <latitude>29.358</latitude>
+        <longitude>34.962</longitude>
+        <elevation>10</elevation>
+        <place>Derra</place>
+        <country>Jordan</country>
+        <archive>GFZ</archive>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <remark/>
+        <sensorLocation publicID="SensorLocation#20140129162638.862986.31" code="">
+          <start>1995-01-01T00:00:00.0000Z</start>
+          <latitude>29.358</latitude>
+          <longitude>34.962</longitude>
+          <elevation>10</elevation>
+          <stream code="HHE" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>1995-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHN" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>1995-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHZ" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>1995-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20140129162638.863898.32" code="HITJ" archiveNetworkCode="JS">
+        <start>1989-01-01T00:00:00.0000Z</start>
+        <description>Station Karama, Jordan</description>
+        <latitude>29.743</latitude>
+        <longitude>35.841</longitude>
+        <elevation>1660</elevation>
+        <place>Karama</place>
+        <country>Jordan</country>
+        <archive>GFZ</archive>
+        <restricted>true</restricted>
+        <shared>true</shared>
+        <remark/>
+        <sensorLocation publicID="SensorLocation#20140129162638.863925.33" code="">
+          <start>1989-01-01T00:00:00.0000Z</start>
+          <latitude>29.743</latitude>
+          <longitude>35.841</longitude>
+          <elevation>1660</elevation>
+          <stream code="HHE" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>1989-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHN" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>1989-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHZ" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>1989-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20140129162638.864827.34" code="HSNJ" archiveNetworkCode="JS">
+        <start>2010-01-01T00:00:00.0000Z</start>
+        <description>Station Hussien University, Jordan</description>
+        <latitude>30.256</latitude>
+        <longitude>35.687</longitude>
+        <elevation>1176</elevation>
+        <place>Hussien University</place>
+        <country>Jordan</country>
+        <archive>GFZ</archive>
+        <restricted>true</restricted>
+        <shared>true</shared>
+        <remark/>
+        <sensorLocation publicID="SensorLocation#20140129162638.864853.35" code="">
+          <start>2010-01-01T00:00:00.0000Z</start>
+          <latitude>30.256</latitude>
+          <longitude>35.687</longitude>
+          <elevation>1176</elevation>
+          <stream code="HHE" datalogger="Datalogger#20140110164454.018152.36" sensor="Sensor#20140110164454.013677.26">
+            <start>2010-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>588235500</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHN" datalogger="Datalogger#20140110164454.018152.36" sensor="Sensor#20140110164454.013677.26">
+            <start>2010-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>588235500</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHZ" datalogger="Datalogger#20140110164454.018152.36" sensor="Sensor#20140110164454.013677.26">
+            <start>2010-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>588235500</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20140129162638.876822.48" code="HSUJ" archiveNetworkCode="JS">
+        <start>2010-01-01T00:00:00.0000Z</start>
+        <description>Station Hashemite University, Jordan</description>
+        <latitude>32.105</latitude>
+        <longitude>36.193</longitude>
+        <elevation>613</elevation>
+        <place>Hashemite University</place>
+        <country>Jordan</country>
+        <archive>GFZ</archive>
+        <restricted>true</restricted>
+        <shared>true</shared>
+        <remark/>
+        <sensorLocation publicID="SensorLocation#20140129162638.876849.49" code="">
+          <start>2010-01-01T00:00:00.0000Z</start>
+          <latitude>32.105</latitude>
+          <longitude>36.193</longitude>
+          <elevation>613</elevation>
+          <stream code="HHE" datalogger="Datalogger#20140110164454.018152.36" sensor="Sensor#20140110164454.013677.26">
+            <start>2010-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>588235500</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHN" datalogger="Datalogger#20140110164454.018152.36" sensor="Sensor#20140110164454.013677.26">
+            <start>2010-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>588235500</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHZ" datalogger="Datalogger#20140110164454.018152.36" sensor="Sensor#20140110164454.013677.26">
+            <start>2010-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>588235500</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20140129162638.878255.50" code="JDRJ" archiveNetworkCode="JS">
+        <start>1989-01-01T00:00:00.0000Z</start>
+        <description>Station Jorf, Jordan</description>
+        <latitude>30.728</latitude>
+        <longitude>35.766</longitude>
+        <elevation>1219</elevation>
+        <place>Jorf</place>
+        <country>Jordan</country>
+        <archive>GFZ</archive>
+        <restricted>true</restricted>
+        <shared>true</shared>
+        <remark/>
+        <sensorLocation publicID="SensorLocation#20140129162638.878282.51" code="">
+          <start>1989-01-01T00:00:00.0000Z</start>
+          <latitude>30.728</latitude>
+          <longitude>35.766</longitude>
+          <elevation>1219</elevation>
+          <stream code="SHE" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.013677.26">
+            <start>1989-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>40</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>943681500</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="SHN" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.013677.26">
+            <start>1989-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>40</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>943681500</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="SHZ" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.013677.26">
+            <start>1989-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>40</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>943681500</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20140129162638.879199.52" code="JSOJ" archiveNetworkCode="JS">
+        <start>2013-04-24T00:00:00.0000Z</start>
+        <description>Station NRA Station, Jordan</description>
+        <latitude>31.957</latitude>
+        <longitude>35.846</longitude>
+        <elevation>930</elevation>
+        <place>NRA Station</place>
+        <country>Jordan</country>
+        <archive>GFZ</archive>
+        <restricted>true</restricted>
+        <shared>true</shared>
+        <remark/>
+        <sensorLocation publicID="SensorLocation#20140129162638.879226.53" code="">
+          <start>2013-04-24T00:00:00.0000Z</start>
+          <latitude>31.957</latitude>
+          <longitude>35.846</longitude>
+          <elevation>930</elevation>
+          <stream code="HHE" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>2013-04-24T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>3</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHN" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>2013-04-24T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>3</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHZ" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>2013-04-24T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>3</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20140129162638.880181.54" code="JUFJ" archiveNetworkCode="JS">
+        <start>2013-10-01T00:00:00.0000Z</start>
+        <description>Station Jordan University Farm, Jordan</description>
+        <latitude>32.08536</latitude>
+        <longitude>35.59819</longitude>
+        <elevation>-0.251</elevation>
+        <place>Jordan University Farm</place>
+        <country>Jordan</country>
+        <archive>GFZ</archive>
+        <restricted>true</restricted>
+        <shared>true</shared>
+        <remark/>
+        <sensorLocation publicID="SensorLocation#20140129162638.880208.55" code="">
+          <start>2013-10-01T00:00:00.0000Z</start>
+          <latitude>32.08536</latitude>
+          <longitude>35.59819</longitude>
+          <elevation>-0.251</elevation>
+          <stream code="HHE" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>2013-10-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>3</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHN" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>2013-10-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>3</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHZ" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>2013-10-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>3</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20140129162638.881151.56" code="JUSJ" archiveNetworkCode="JS">
+        <start>2010-01-01T00:00:00.0000Z</start>
+        <description>Station Jordanian University of Science and Technologies, Jordan</description>
+        <latitude>32.472</latitude>
+        <longitude>35.9725</longitude>
+        <elevation>550</elevation>
+        <place>Jordanian University of Science and Technologies</place>
+        <country>Jordan</country>
+        <archive>GFZ</archive>
+        <restricted>true</restricted>
+        <shared>true</shared>
+        <remark/>
+        <sensorLocation publicID="SensorLocation#20140129162638.881177.57" code="">
+          <start>2010-01-01T00:00:00.0000Z</start>
+          <latitude>32.472</latitude>
+          <longitude>35.9725</longitude>
+          <elevation>550</elevation>
+          <stream code="HHE" datalogger="Datalogger#20140110164454.018152.36" sensor="Sensor#20140110164454.013677.26">
+            <start>2010-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>588235500</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHN" datalogger="Datalogger#20140110164454.018152.36" sensor="Sensor#20140110164454.013677.26">
+            <start>2010-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>588235500</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHZ" datalogger="Datalogger#20140110164454.018152.36" sensor="Sensor#20140110164454.013677.26">
+            <start>2010-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>588235500</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20140129162638.882581.58" code="KARJ" archiveNetworkCode="JS">
+        <start>2000-02-09T00:00:00.0000Z</start>
+        <description>Station Karama, Jordan</description>
+        <latitude>32.002</latitude>
+        <longitude>35.575</longitude>
+        <elevation>-124</elevation>
+        <place>Karama</place>
+        <country>Jordan</country>
+        <archive>GFZ</archive>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <remark/>
+        <sensorLocation publicID="SensorLocation#20140129162638.882608.59" code="">
+          <start>2000-02-09T00:00:00.0000Z</start>
+          <latitude>32.002</latitude>
+          <longitude>35.575</longitude>
+          <elevation>-124</elevation>
+          <stream code="HHE" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>2000-02-09T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHN" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>2000-02-09T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHZ" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>2000-02-09T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20140129162638.883548.60" code="LISJ" archiveNetworkCode="JS">
+        <start>1983-01-01T00:00:00.0000Z</start>
+        <description>Station Al-Lesan, Jordan</description>
+        <latitude>31.24</latitude>
+        <longitude>35.481</longitude>
+        <elevation>-327</elevation>
+        <place>Al-Lesan</place>
+        <country>Jordan</country>
+        <archive>GFZ</archive>
+        <restricted>true</restricted>
+        <shared>true</shared>
+        <remark/>
+        <sensorLocation publicID="SensorLocation#20140129162638.883575.61" code="">
+          <start>1983-01-01T00:00:00.0000Z</start>
+          <latitude>31.24</latitude>
+          <longitude>35.481</longitude>
+          <elevation>-327</elevation>
+          <stream code="SHE" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.037709.62">
+            <start>1983-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>40</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>1258242000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="SHN" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.037709.62">
+            <start>1983-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>40</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>1258242000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="SHZ" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.037709.62">
+            <start>1983-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>40</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>1258242000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20140129162638.885412.64" code="QRNJ" archiveNetworkCode="JS">
+        <start>2010-01-01T00:00:00.0000Z</start>
+        <description>Station Al-Qirn, Jordan</description>
+        <latitude>32.355</latitude>
+        <longitude>35.575</longitude>
+        <elevation>95</elevation>
+        <place>Al-Qirn</place>
+        <country>Jordan</country>
+        <archive>GFZ</archive>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <remark/>
+        <sensorLocation publicID="SensorLocation#20140129162638.88544.65" code="">
+          <start>2010-01-01T00:00:00.0000Z</start>
+          <latitude>32.355</latitude>
+          <longitude>35.575</longitude>
+          <elevation>95</elevation>
+          <stream code="HHE" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>2010-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHN" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>2010-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHZ" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>2010-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20140129162638.886388.66" code="SHMJ" archiveNetworkCode="JS">
+        <start>1989-01-01T00:00:00.0000Z</start>
+        <description>Station Saham, Jordan</description>
+        <latitude>32.727</latitude>
+        <longitude>35.75</longitude>
+        <elevation>363</elevation>
+        <place>Saham</place>
+        <country>Jordan</country>
+        <archive>GFZ</archive>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <remark/>
+        <sensorLocation publicID="SensorLocation#20140129162638.886415.67" code="">
+          <start>1989-01-01T00:00:00.0000Z</start>
+          <latitude>32.727</latitude>
+          <longitude>35.75</longitude>
+          <elevation>363</elevation>
+          <stream code="HHE" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>1989-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHN" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>1989-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHZ" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>1989-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20140129162638.887367.68" code="SWQJ" archiveNetworkCode="JS">
+        <start>1989-01-01T00:00:00.0000Z</start>
+        <description>Station Swaqa, Jordan</description>
+        <latitude>31.243</latitude>
+        <longitude>36.06</longitude>
+        <elevation>876</elevation>
+        <place>Swaqa</place>
+        <country>Jordan</country>
+        <archive>GFZ</archive>
+        <restricted>true</restricted>
+        <shared>true</shared>
+        <remark/>
+        <sensorLocation publicID="SensorLocation#20140129162638.887395.69" code="">
+          <start>1989-01-01T00:00:00.0000Z</start>
+          <latitude>31.243</latitude>
+          <longitude>36.06</longitude>
+          <elevation>876</elevation>
+          <stream code="SHE" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.013677.26">
+            <start>1989-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>40</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>943681500</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="SHN" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.013677.26">
+            <start>1989-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>40</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>943681500</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="SHZ" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.013677.26">
+            <start>1989-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>40</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>943681500</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20140129162638.888318.70" code="WALJ" archiveNetworkCode="JS">
+        <start>2009-01-01T00:00:00.0000Z</start>
+        <description>Station Wala, Jordan</description>
+        <latitude>31.562</latitude>
+        <longitude>35.811</longitude>
+        <elevation>53</elevation>
+        <place>Wala</place>
+        <country>Jordan</country>
+        <archive>GFZ</archive>
+        <restricted>true</restricted>
+        <shared>true</shared>
+        <remark/>
+        <sensorLocation publicID="SensorLocation#20140129162638.888345.71" code="">
+          <start>2009-01-01T00:00:00.0000Z</start>
+          <latitude>31.562</latitude>
+          <longitude>35.811</longitude>
+          <elevation>53</elevation>
+          <stream code="HHE" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>2009-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHN" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>2009-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHZ" datalogger="Datalogger#20140110164454.003224.7" sensor="Sensor#20140110164454.002168.5">
+            <start>2009-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>1</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>106950570</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>GC</flags>
+            <restricted>true</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+    </network>
+  </Inventory>
+</seiscomp>

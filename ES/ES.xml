@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seiscomp xmlns="http://geofon.gfz-potsdam.de/ns/seiscomp3-schema/0.7" version="0.7">
+  <Inventory>
+    <sensor publicID="Sensor#20121207101601.935806.9070" name="ECAL.2000.001.HE" response="ResponsePAZ#20121207101601.936146.9071">
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="2">
+        <start>2000-01-01T00:00:00.0000Z</start>
+        <gain>1508</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207101601.943812.9079" name="ECAL.2000.001.HN" response="ResponsePAZ#20121207101601.944053.9080">
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="1">
+        <start>2000-01-01T00:00:00.0000Z</start>
+        <gain>1502</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207101601.951646.9088" name="ECAL.2000.001.HZ" response="ResponsePAZ#20121207101601.951889.9089">
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="0">
+        <start>2000-01-01T00:00:00.0000Z</start>
+        <gain>1498</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207101604.908311.9098" name="EJON.2000.001.HE" response="ResponsePAZ#20121207101604.908663.9099">
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="2">
+        <start>2000-01-01T00:00:00.0000Z</start>
+        <gain>1484</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207101604.916202.9107" name="EJON.2000.001.HN" response="ResponsePAZ#20121207101604.91645.9108">
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="1">
+        <start>2000-01-01T00:00:00.0000Z</start>
+        <gain>1472</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207101604.923993.9116" name="EJON.2000.001.HZ" response="ResponsePAZ#20121207101604.924245.9117">
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="0">
+        <start>2000-01-01T00:00:00.0000Z</start>
+        <gain>1492</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207101607.831628.9126" name="EMUR.2000.001.HE" response="ResponsePAZ#20121207101607.832597.9127">
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="2">
+        <start>2000-01-01T00:00:00.0000Z</start>
+        <gain>1511.2</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207101607.854509.9135" name="EMUR.2000.001.HN" response="ResponsePAZ#20121207101607.85522.9136">
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="1">
+        <start>2000-01-01T00:00:00.0000Z</start>
+        <gain>1525.4</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207101607.87683.9144" name="EMUR.2000.001.HZ" response="ResponsePAZ#20121207101607.877555.9145">
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="0">
+        <start>2000-01-01T00:00:00.0000Z</start>
+        <gain>1512.4</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207101610.65175.9154" name="EOSO.2000.001.HE" response="ResponsePAZ#20121207101610.652677.9155">
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="2">
+        <start>2000-01-01T00:00:00.0000Z</start>
+        <gain>1496</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207101610.674485.9163" name="EOSO.2000.001.HN" response="ResponsePAZ#20121207101610.675202.9164">
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="1">
+        <start>2000-01-01T00:00:00.0000Z</start>
+        <gain>1508</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207101610.696952.9172" name="EOSO.2000.001.HZ" response="ResponsePAZ#20121207101610.697682.9173">
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="0">
+        <start>2000-01-01T00:00:00.0000Z</start>
+        <gain>1494</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <datalogger publicID="Datalogger#20121207101601.927417.9062" name="ECAL.2000.001.H">
+      <description>ECAL.2000.001.H</description>
+      <gain>421984</gain>
+      <maxClockDrift>0</maxClockDrift>
+      <calibration serialNumber="xxxx" channel="0">
+        <start>2000-01-01T00:00:00.0000Z</start>
+        <gain>421984</gain>
+        <gainFrequency>0</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="1">
+        <start>2000-01-01T00:00:00.0000Z</start>
+        <gain>422901</gain>
+        <gainFrequency>0</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="2">
+        <start>2000-01-01T00:00:00.0000Z</start>
+        <gain>425100</gain>
+        <gainFrequency>0</gainFrequency>
+      </calibration>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <analogueFilterChain>ResponsePAZ#20121207101601.951439.9087</analogueFilterChain>
+        <digitalFilterChain>ResponseFIR#20121207101601.945313.9081 ResponseFIR#20121207101601.946309.9082 ResponseFIR#20121207101601.947225.9083 ResponseFIR#20121207101601.948614.9084 ResponseFIR#20121207101601.949709.9085 ResponseFIR#20121207101601.95113.9086</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger#20121207101604.899989.9090" name="EJON.2000.001.H">
+      <description>EJON.2000.001.H</description>
+      <gain>293430</gain>
+      <maxClockDrift>0</maxClockDrift>
+      <calibration serialNumber="xxxx" channel="0">
+        <start>2000-01-01T00:00:00.0000Z</start>
+        <gain>293430</gain>
+        <gainFrequency>0</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="1">
+        <start>2000-01-01T00:00:00.0000Z</start>
+        <gain>420168</gain>
+        <gainFrequency>0</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="2">
+        <start>2000-01-01T00:00:00.0000Z</start>
+        <gain>420168</gain>
+        <gainFrequency>0</gainFrequency>
+      </calibration>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <analogueFilterChain>ResponsePAZ#20121207101604.923786.9115</analogueFilterChain>
+        <digitalFilterChain>ResponseFIR#20121207101604.91772.9109 ResponseFIR#20121207101604.918686.9110 ResponseFIR#20121207101604.919621.9111 ResponseFIR#20121207101604.921013.9112 ResponseFIR#20121207101604.922087.9113 ResponseFIR#20121207101604.923486.9114</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger#20121207101607.808516.9118" name="EMUR.2000.001.H">
+      <description>EMUR.2000.001.H</description>
+      <gain>424899</gain>
+      <maxClockDrift>0</maxClockDrift>
+      <calibration serialNumber="xxxx" channel="0">
+        <start>2000-01-01T00:00:00.0000Z</start>
+        <gain>424899</gain>
+        <gainFrequency>0</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="1">
+        <start>2000-01-01T00:00:00.0000Z</start>
+        <gain>422494</gain>
+        <gainFrequency>0</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="2">
+        <start>2000-01-01T00:00:00.0000Z</start>
+        <gain>421656</gain>
+        <gainFrequency>0</gainFrequency>
+      </calibration>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <analogueFilterChain>ResponsePAZ#20121207101607.876218.9143</analogueFilterChain>
+        <digitalFilterChain>ResponseFIR#20121207101607.858878.9137 ResponseFIR#20121207101607.861641.9138 ResponseFIR#20121207101607.864273.9139 ResponseFIR#20121207101607.868287.9140 ResponseFIR#20121207101607.871349.9141 ResponseFIR#20121207101607.87536.9142</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger#20121207101610.628023.9146" name="EOSO.2000.001.H">
+      <description>EOSO.2000.001.H</description>
+      <gain>422863</gain>
+      <maxClockDrift>0</maxClockDrift>
+      <calibration serialNumber="xxxx" channel="0">
+        <start>2000-01-01T00:00:00.0000Z</start>
+        <gain>422863</gain>
+        <gainFrequency>0</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="1">
+        <start>2000-01-01T00:00:00.0000Z</start>
+        <gain>420631</gain>
+        <gainFrequency>0</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="2">
+        <start>2000-01-01T00:00:00.0000Z</start>
+        <gain>420801</gain>
+        <gainFrequency>0</gainFrequency>
+      </calibration>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <analogueFilterChain>ResponsePAZ#20121207101610.696355.9171</analogueFilterChain>
+        <digitalFilterChain>ResponseFIR#20121207101610.678833.9165 ResponseFIR#20121207101610.681604.9166 ResponseFIR#20121207101610.684243.9167 ResponseFIR#20121207101610.688376.9168 ResponseFIR#20121207101610.691434.9169 ResponseFIR#20121207101610.695481.9170</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <responsePAZ publicID="ResponsePAZ#20121207101601.951439.9087" name="ECAL..HHZ.2000.001.stage_2">
+      <type>A</type>
+      <gain>1</gain>
+      <gainFrequency>10</gainFrequency>
+      <normalizationFactor>1.40568e+12</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>0</numberOfZeros>
+      <numberOfPoles>3</numberOfPoles>
+      <zeros/>
+      <poles>(-9904.8,3786) (-9904.8,-3786) (-12507,0)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207101601.936146.9071" name="ECAL.2000.001.HE">
+      <type>A</type>
+      <gain>1508</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>311.018</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>3</numberOfZeros>
+      <numberOfPoles>4</numberOfPoles>
+      <zeros>(0,0) (0,0) (945.619,0)</zeros>
+      <poles>(-0.044422,0.012334) (-0.044422,-0.012334) (-505.796,193.522) (-505.796,-193.522)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207101601.944053.9080" name="ECAL.2000.001.HN">
+      <type>A</type>
+      <gain>1502</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>311.018</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>3</numberOfZeros>
+      <numberOfPoles>4</numberOfPoles>
+      <zeros>(0,0) (0,0) (945.619,0)</zeros>
+      <poles>(-0.044422,0.012334) (-0.044422,-0.012334) (-505.796,193.522) (-505.796,-193.522)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207101601.951889.9089" name="ECAL.2000.001.HZ">
+      <type>A</type>
+      <gain>1498</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>311.018</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>3</numberOfZeros>
+      <numberOfPoles>4</numberOfPoles>
+      <zeros>(0,0) (0,0) (945.619,0)</zeros>
+      <poles>(-0.044422,0.012334) (-0.044422,-0.012334) (-505.796,193.522) (-505.796,-193.522)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207101604.923786.9115" name="EJON..HHZ.2000.001.stage_2">
+      <type>A</type>
+      <gain>1</gain>
+      <gainFrequency>10</gainFrequency>
+      <normalizationFactor>1.40568e+12</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>0</numberOfZeros>
+      <numberOfPoles>3</numberOfPoles>
+      <zeros/>
+      <poles>(-9904.8,3786) (-9904.8,-3786) (-12507,0)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207101604.908663.9099" name="EJON.2000.001.HE">
+      <type>A</type>
+      <gain>1484</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>311.018</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>3</numberOfZeros>
+      <numberOfPoles>4</numberOfPoles>
+      <zeros>(0,0) (0,0) (945.619,0)</zeros>
+      <poles>(-0.044422,0.012334) (-0.044422,-0.012334) (-505.796,193.522) (-505.796,-193.522)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207101604.91645.9108" name="EJON.2000.001.HN">
+      <type>A</type>
+      <gain>1472</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>311.018</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>3</numberOfZeros>
+      <numberOfPoles>4</numberOfPoles>
+      <zeros>(0,0) (0,0) (945.619,0)</zeros>
+      <poles>(-0.044422,0.012334) (-0.044422,-0.012334) (-505.796,193.522) (-505.796,-193.522)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207101604.924245.9117" name="EJON.2000.001.HZ">
+      <type>A</type>
+      <gain>1492</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>311.018</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>3</numberOfZeros>
+      <numberOfPoles>4</numberOfPoles>
+      <zeros>(0,0) (0,0) (945.619,0)</zeros>
+      <poles>(-0.044422,0.012334) (-0.044422,-0.012334) (-505.796,193.522) (-505.796,-193.522)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207101607.876218.9143" name="EMUR..HHZ.2000.001.stage_2">
+      <type>A</type>
+      <gain>1</gain>
+      <gainFrequency>10</gainFrequency>
+      <normalizationFactor>1.40568e+12</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>0</numberOfZeros>
+      <numberOfPoles>3</numberOfPoles>
+      <zeros/>
+      <poles>(-9904.8,3786) (-9904.8,-3786) (-12507,0)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207101607.832597.9127" name="EMUR.2000.001.HE">
+      <type>A</type>
+      <gain>1511.2</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>311.018</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>3</numberOfZeros>
+      <numberOfPoles>4</numberOfPoles>
+      <zeros>(0,0) (0,0) (945.619,0)</zeros>
+      <poles>(-0.044422,0.012334) (-0.044422,-0.012334) (-505.796,193.522) (-505.796,-193.522)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207101607.85522.9136" name="EMUR.2000.001.HN">
+      <type>A</type>
+      <gain>1525.4</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>311.018</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>3</numberOfZeros>
+      <numberOfPoles>4</numberOfPoles>
+      <zeros>(0,0) (0,0) (945.619,0)</zeros>
+      <poles>(-0.044422,0.012334) (-0.044422,-0.012334) (-505.796,193.522) (-505.796,-193.522)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207101607.877555.9145" name="EMUR.2000.001.HZ">
+      <type>A</type>
+      <gain>1512.4</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>311.018</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>3</numberOfZeros>
+      <numberOfPoles>4</numberOfPoles>
+      <zeros>(0,0) (0,0) (945.619,0)</zeros>
+      <poles>(-0.044422,0.012334) (-0.044422,-0.012334) (-505.796,193.522) (-505.796,-193.522)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207101610.696355.9171" name="EOSO..HHZ.2000.001.stage_2">
+      <type>A</type>
+      <gain>1</gain>
+      <gainFrequency>10</gainFrequency>
+      <normalizationFactor>1.40568e+12</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>0</numberOfZeros>
+      <numberOfPoles>3</numberOfPoles>
+      <zeros/>
+      <poles>(-9904.8,3786) (-9904.8,-3786) (-12507,0)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207101610.652677.9155" name="EOSO.2000.001.HE">
+      <type>A</type>
+      <gain>1496</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>311.018</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>3</numberOfZeros>
+      <numberOfPoles>4</numberOfPoles>
+      <zeros>(0,0) (0,0) (945.619,0)</zeros>
+      <poles>(-0.044422,0.012334) (-0.044422,-0.012334) (-505.796,193.522) (-505.796,-193.522)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207101610.675202.9164" name="EOSO.2000.001.HN">
+      <type>A</type>
+      <gain>1508</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>311.018</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>3</numberOfZeros>
+      <numberOfPoles>4</numberOfPoles>
+      <zeros>(0,0) (0,0) (945.619,0)</zeros>
+      <poles>(-0.044422,0.012334) (-0.044422,-0.012334) (-505.796,193.522) (-505.796,-193.522)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207101610.697682.9173" name="EOSO.2000.001.HZ">
+      <type>A</type>
+      <gain>1494</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>311.018</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>3</numberOfZeros>
+      <numberOfPoles>4</numberOfPoles>
+      <zeros>(0,0) (0,0) (945.619,0)</zeros>
+      <poles>(-0.044422,0.012334) (-0.044422,-0.012334) (-505.796,193.522) (-505.796,-193.522)</poles>
+    </responsePAZ>
+    <responseFIR publicID="ResponseFIR#20121207101601.945313.9081" name="ECAL..HHZ.2000.001.stage_4">
+      <gain>1</gain>
+      <decimationFactor>5</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>17</numberOfCoefficients>
+      <symmetry>C</symmetry>
+      <coefficients>3.78877e-05 0.000199727 0.000591277 0.00119834 0.0016772 0.00123444 -0.00115877 -0.00607173 -0.0126102 -0.0176669 -0.0161537 -0.00263181 0.0260166 0.0680539 0.115986 0.158234 0.18305</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20121207101601.946309.9082" name="ECAL..HHZ.2000.001.stage_5">
+      <gain>1</gain>
+      <decimationFactor>3</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>15</numberOfCoefficients>
+      <symmetry>C</symmetry>
+      <coefficients>6.58791e-05 0.000189997 -4.82719e-05 -0.00121678 -0.00245761 -0.000568704 0.00649528 0.0129497 0.00544901 -0.021593 -0.0469646 -0.0271107 0.0656651 0.202943 0.306183</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20121207101601.947225.9083" name="ECAL..HHZ.2000.001.stage_6">
+      <gain>1</gain>
+      <decimationFactor>2</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>59</numberOfCoefficients>
+      <symmetry>C</symmetry>
+      <coefficients>-1.0469e-05 -2.37759e-05 -5.71898e-06 3.42359e-05 3.05109e-05 -4.39314e-05 -7.44501e-05 3.35697e-05 0.000136269 1.27756e-05 -0.000202509 -0.000112215 0.000248813 0.000273009 -0.000237879 -0.000488299 0.000125725 0.000727343 0.000129368 -0.000931763 -0.000552402 0.00101653 0.00113569 -0.000879633 -0.00182378 0.000420099 0.00250427 0.000436356 -0.00300832 -0.00170771 0.00312431 0.00332718 -0.00262574 -0.00512246 0.00131145 0.00680853 0.000946345 -0.00799837 -0.00415349 0.00823239 0.00815258 -0.00702311 -0.0125959 0.003906 0.0169353 0.00151894 -0.0204221 -0.00957991 0.0220943 0.0206082 -0.0206774 -0.0352195 0.0141705 0.0552558 0.00190459 -0.087902 -0.0450415 0.182297 0.410586</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20121207101601.948614.9084" name="ECAL..HHZ.2000.001.stage_7">
+      <gain>1</gain>
+      <decimationFactor>5</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>28</numberOfCoefficients>
+      <symmetry>C</symmetry>
+      <coefficients>1.27829e-05 4.86436e-05 0.000114412 0.000191012 0.000219187 0.000104308 -0.000242629 -0.000828811 -0.00149734 -0.00189428 -0.00154402 -5.73342e-05 0.00257422 0.00572408 0.00808691 0.00798133 0.00400912 -0.00410132 -0.0148003 -0.0245514 -0.0284513 -0.0216121 -0.000939619 0.0333076 0.0768324 0.121895 0.159156 0.180251</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20121207101601.949709.9085" name="ECAL..HHZ.2000.001.stage_8">
+      <gain>1</gain>
+      <decimationFactor>2</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>59</numberOfCoefficients>
+      <symmetry>C</symmetry>
+      <coefficients>-1.0469e-05 -2.37759e-05 -5.71898e-06 3.42359e-05 3.05109e-05 -4.39314e-05 -7.44501e-05 3.35697e-05 0.000136269 1.27756e-05 -0.000202509 -0.000112215 0.000248813 0.000273009 -0.000237879 -0.000488299 0.000125725 0.000727343 0.000129368 -0.000931763 -0.000552402 0.00101653 0.00113569 -0.000879633 -0.00182378 0.000420099 0.00250427 0.000436356 -0.00300832 -0.00170771 0.00312431 0.00332718 -0.00262574 -0.00512246 0.00131145 0.00680853 0.000946345 -0.00799837 -0.00415349 0.00823239 0.00815258 -0.00702311 -0.0125959 0.003906 0.0169353 0.00151894 -0.0204221 -0.00957991 0.0220943 0.0206082 -0.0206774 -0.0352195 0.0141705 0.0552558 0.00190459 -0.087902 -0.0450415 0.182297 0.410586</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20121207101601.95113.9086" name="ECAL..HHZ.2000.001.stage_9">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>2</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>1 -1</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20121207101604.91772.9109" name="EJON..HHZ.2000.001.stage_4">
+      <gain>1</gain>
+      <decimationFactor>5</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>17</numberOfCoefficients>
+      <symmetry>C</symmetry>
+      <coefficients>3.78877e-05 0.000199727 0.000591277 0.00119834 0.0016772 0.00123444 -0.00115877 -0.00607173 -0.0126102 -0.0176669 -0.0161537 -0.00263181 0.0260166 0.0680539 0.115986 0.158234 0.18305</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20121207101604.918686.9110" name="EJON..HHZ.2000.001.stage_5">
+      <gain>1</gain>
+      <decimationFactor>3</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>15</numberOfCoefficients>
+      <symmetry>C</symmetry>
+      <coefficients>6.58791e-05 0.000189997 -4.82719e-05 -0.00121678 -0.00245761 -0.000568704 0.00649528 0.0129497 0.00544901 -0.021593 -0.0469646 -0.0271107 0.0656651 0.202943 0.306183</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20121207101604.919621.9111" name="EJON..HHZ.2000.001.stage_6">
+      <gain>1</gain>
+      <decimationFactor>2</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>59</numberOfCoefficients>
+      <symmetry>C</symmetry>
+      <coefficients>-1.0469e-05 -2.37759e-05 -5.71898e-06 3.42359e-05 3.05109e-05 -4.39314e-05 -7.44501e-05 3.35697e-05 0.000136269 1.27756e-05 -0.000202509 -0.000112215 0.000248813 0.000273009 -0.000237879 -0.000488299 0.000125725 0.000727343 0.000129368 -0.000931763 -0.000552402 0.00101653 0.00113569 -0.000879633 -0.00182378 0.000420099 0.00250427 0.000436356 -0.00300832 -0.00170771 0.00312431 0.00332718 -0.00262574 -0.00512246 0.00131145 0.00680853 0.000946345 -0.00799837 -0.00415349 0.00823239 0.00815258 -0.00702311 -0.0125959 0.003906 0.0169353 0.00151894 -0.0204221 -0.00957991 0.0220943 0.0206082 -0.0206774 -0.0352195 0.0141705 0.0552558 0.00190459 -0.087902 -0.0450415 0.182297 0.410586</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20121207101604.921013.9112" name="EJON..HHZ.2000.001.stage_7">
+      <gain>1</gain>
+      <decimationFactor>5</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>28</numberOfCoefficients>
+      <symmetry>C</symmetry>
+      <coefficients>1.27829e-05 4.86436e-05 0.000114412 0.000191012 0.000219187 0.000104308 -0.000242629 -0.000828811 -0.00149734 -0.00189428 -0.00154402 -5.73342e-05 0.00257422 0.00572408 0.00808691 0.00798133 0.00400912 -0.00410132 -0.0148003 -0.0245514 -0.0284513 -0.0216121 -0.000939619 0.0333076 0.0768324 0.121895 0.159156 0.180251</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20121207101604.922087.9113" name="EJON..HHZ.2000.001.stage_8">
+      <gain>1</gain>
+      <decimationFactor>2</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>59</numberOfCoefficients>
+      <symmetry>C</symmetry>
+      <coefficients>-1.0469e-05 -2.37759e-05 -5.71898e-06 3.42359e-05 3.05109e-05 -4.39314e-05 -7.44501e-05 3.35697e-05 0.000136269 1.27756e-05 -0.000202509 -0.000112215 0.000248813 0.000273009 -0.000237879 -0.000488299 0.000125725 0.000727343 0.000129368 -0.000931763 -0.000552402 0.00101653 0.00113569 -0.000879633 -0.00182378 0.000420099 0.00250427 0.000436356 -0.00300832 -0.00170771 0.00312431 0.00332718 -0.00262574 -0.00512246 0.00131145 0.00680853 0.000946345 -0.00799837 -0.00415349 0.00823239 0.00815258 -0.00702311 -0.0125959 0.003906 0.0169353 0.00151894 -0.0204221 -0.00957991 0.0220943 0.0206082 -0.0206774 -0.0352195 0.0141705 0.0552558 0.00190459 -0.087902 -0.0450415 0.182297 0.410586</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20121207101604.923486.9114" name="EJON..HHZ.2000.001.stage_9">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>2</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>1 -1</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20121207101607.858878.9137" name="EMUR..HHZ.2000.001.stage_4">
+      <gain>1</gain>
+      <decimationFactor>5</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>17</numberOfCoefficients>
+      <symmetry>C</symmetry>
+      <coefficients>3.78877e-05 0.000199727 0.000591277 0.00119834 0.0016772 0.00123444 -0.00115877 -0.00607173 -0.0126102 -0.0176669 -0.0161537 -0.00263181 0.0260166 0.0680539 0.115986 0.158234 0.18305</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20121207101607.861641.9138" name="EMUR..HHZ.2000.001.stage_5">
+      <gain>1</gain>
+      <decimationFactor>3</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>15</numberOfCoefficients>
+      <symmetry>C</symmetry>
+      <coefficients>6.58791e-05 0.000189997 -4.82719e-05 -0.00121678 -0.00245761 -0.000568704 0.00649528 0.0129497 0.00544901 -0.021593 -0.0469646 -0.0271107 0.0656651 0.202943 0.306183</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20121207101607.864273.9139" name="EMUR..HHZ.2000.001.stage_6">
+      <gain>1</gain>
+      <decimationFactor>2</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>59</numberOfCoefficients>
+      <symmetry>C</symmetry>
+      <coefficients>-1.0469e-05 -2.37759e-05 -5.71898e-06 3.42359e-05 3.05109e-05 -4.39314e-05 -7.44501e-05 3.35697e-05 0.000136269 1.27756e-05 -0.000202509 -0.000112215 0.000248813 0.000273009 -0.000237879 -0.000488299 0.000125725 0.000727343 0.000129368 -0.000931763 -0.000552402 0.00101653 0.00113569 -0.000879633 -0.00182378 0.000420099 0.00250427 0.000436356 -0.00300832 -0.00170771 0.00312431 0.00332718 -0.00262574 -0.00512246 0.00131145 0.00680853 0.000946345 -0.00799837 -0.00415349 0.00823239 0.00815258 -0.00702311 -0.0125959 0.003906 0.0169353 0.00151894 -0.0204221 -0.00957991 0.0220943 0.0206082 -0.0206774 -0.0352195 0.0141705 0.0552558 0.00190459 -0.087902 -0.0450415 0.182297 0.410586</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20121207101607.868287.9140" name="EMUR..HHZ.2000.001.stage_7">
+      <gain>1</gain>
+      <decimationFactor>5</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>28</numberOfCoefficients>
+      <symmetry>C</symmetry>
+      <coefficients>1.27829e-05 4.86436e-05 0.000114412 0.000191012 0.000219187 0.000104308 -0.000242629 -0.000828811 -0.00149734 -0.00189428 -0.00154402 -5.73342e-05 0.00257422 0.00572408 0.00808691 0.00798133 0.00400912 -0.00410132 -0.0148003 -0.0245514 -0.0284513 -0.0216121 -0.000939619 0.0333076 0.0768324 0.121895 0.159156 0.180251</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20121207101607.871349.9141" name="EMUR..HHZ.2000.001.stage_8">
+      <gain>1</gain>
+      <decimationFactor>2</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>59</numberOfCoefficients>
+      <symmetry>C</symmetry>
+      <coefficients>-1.0469e-05 -2.37759e-05 -5.71898e-06 3.42359e-05 3.05109e-05 -4.39314e-05 -7.44501e-05 3.35697e-05 0.000136269 1.27756e-05 -0.000202509 -0.000112215 0.000248813 0.000273009 -0.000237879 -0.000488299 0.000125725 0.000727343 0.000129368 -0.000931763 -0.000552402 0.00101653 0.00113569 -0.000879633 -0.00182378 0.000420099 0.00250427 0.000436356 -0.00300832 -0.00170771 0.00312431 0.00332718 -0.00262574 -0.00512246 0.00131145 0.00680853 0.000946345 -0.00799837 -0.00415349 0.00823239 0.00815258 -0.00702311 -0.0125959 0.003906 0.0169353 0.00151894 -0.0204221 -0.00957991 0.0220943 0.0206082 -0.0206774 -0.0352195 0.0141705 0.0552558 0.00190459 -0.087902 -0.0450415 0.182297 0.410586</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20121207101607.87536.9142" name="EMUR..HHZ.2000.001.stage_9">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>2</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>1 -1</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20121207101610.678833.9165" name="EOSO..HHZ.2000.001.stage_4">
+      <gain>1</gain>
+      <decimationFactor>5</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>17</numberOfCoefficients>
+      <symmetry>C</symmetry>
+      <coefficients>3.78877e-05 0.000199727 0.000591277 0.00119834 0.0016772 0.00123444 -0.00115877 -0.00607173 -0.0126102 -0.0176669 -0.0161537 -0.00263181 0.0260166 0.0680539 0.115986 0.158234 0.18305</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20121207101610.681604.9166" name="EOSO..HHZ.2000.001.stage_5">
+      <gain>1</gain>
+      <decimationFactor>3</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>15</numberOfCoefficients>
+      <symmetry>C</symmetry>
+      <coefficients>6.58791e-05 0.000189997 -4.82719e-05 -0.00121678 -0.00245761 -0.000568704 0.00649528 0.0129497 0.00544901 -0.021593 -0.0469646 -0.0271107 0.0656651 0.202943 0.306183</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20121207101610.684243.9167" name="EOSO..HHZ.2000.001.stage_6">
+      <gain>1</gain>
+      <decimationFactor>2</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>59</numberOfCoefficients>
+      <symmetry>C</symmetry>
+      <coefficients>-1.0469e-05 -2.37759e-05 -5.71898e-06 3.42359e-05 3.05109e-05 -4.39314e-05 -7.44501e-05 3.35697e-05 0.000136269 1.27756e-05 -0.000202509 -0.000112215 0.000248813 0.000273009 -0.000237879 -0.000488299 0.000125725 0.000727343 0.000129368 -0.000931763 -0.000552402 0.00101653 0.00113569 -0.000879633 -0.00182378 0.000420099 0.00250427 0.000436356 -0.00300832 -0.00170771 0.00312431 0.00332718 -0.00262574 -0.00512246 0.00131145 0.00680853 0.000946345 -0.00799837 -0.00415349 0.00823239 0.00815258 -0.00702311 -0.0125959 0.003906 0.0169353 0.00151894 -0.0204221 -0.00957991 0.0220943 0.0206082 -0.0206774 -0.0352195 0.0141705 0.0552558 0.00190459 -0.087902 -0.0450415 0.182297 0.410586</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20121207101610.688376.9168" name="EOSO..HHZ.2000.001.stage_7">
+      <gain>1</gain>
+      <decimationFactor>5</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>28</numberOfCoefficients>
+      <symmetry>C</symmetry>
+      <coefficients>1.27829e-05 4.86436e-05 0.000114412 0.000191012 0.000219187 0.000104308 -0.000242629 -0.000828811 -0.00149734 -0.00189428 -0.00154402 -5.73342e-05 0.00257422 0.00572408 0.00808691 0.00798133 0.00400912 -0.00410132 -0.0148003 -0.0245514 -0.0284513 -0.0216121 -0.000939619 0.0333076 0.0768324 0.121895 0.159156 0.180251</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20121207101610.691434.9169" name="EOSO..HHZ.2000.001.stage_8">
+      <gain>1</gain>
+      <decimationFactor>2</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>59</numberOfCoefficients>
+      <symmetry>C</symmetry>
+      <coefficients>-1.0469e-05 -2.37759e-05 -5.71898e-06 3.42359e-05 3.05109e-05 -4.39314e-05 -7.44501e-05 3.35697e-05 0.000136269 1.27756e-05 -0.000202509 -0.000112215 0.000248813 0.000273009 -0.000237879 -0.000488299 0.000125725 0.000727343 0.000129368 -0.000931763 -0.000552402 0.00101653 0.00113569 -0.000879633 -0.00182378 0.000420099 0.00250427 0.000436356 -0.00300832 -0.00170771 0.00312431 0.00332718 -0.00262574 -0.00512246 0.00131145 0.00680853 0.000946345 -0.00799837 -0.00415349 0.00823239 0.00815258 -0.00702311 -0.0125959 0.003906 0.0169353 0.00151894 -0.0204221 -0.00957991 0.0220943 0.0206082 -0.0206774 -0.0352195 0.0141705 0.0552558 0.00190459 -0.087902 -0.0450415 0.182297 0.410586</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20121207101610.695481.9170" name="EOSO..HHZ.2000.001.stage_9">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>2</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>1 -1</coefficients>
+    </responseFIR>
+    <network publicID="Network/ES" code="ES">
+      <start>1980-01-01T00:00:00.0000Z</start>
+      <description>Spanish Digital Seismic Network</description>
+      <institutions>IGN</institutions>
+      <region>Spain</region>
+      <type>BB</type>
+      <netClass>p</netClass>
+      <archive>ODC</archive>
+      <restricted>false</restricted>
+      <shared>true</shared>
+      <station publicID="Station/ES/ECAL/2000-01-01T00:00:00.0000Z" code="ECAL">
+        <start>2000-01-01T00:00:00.0000Z</start>
+        <description>CALABOR, SPAIN</description>
+        <latitude>41.941299</latitude>
+        <longitude>-6.737099</longitude>
+        <elevation>950</elevation>
+        <place>CALABOR</place>
+        <country> SPAIN</country>
+        <affiliation>SPANISH DIGITAL SEISMIC NETWORK</affiliation>
+        <archive>ODC</archive>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="SensorLocation#20121207100900.032758.3466" code="">
+          <start>2000-01-01T00:00:00.0000Z</start>
+          <latitude>41.941299</latitude>
+          <longitude>-6.737099</longitude>
+          <elevation>950</elevation>
+          <stream code="HHE" datalogger="Datalogger#20121207101601.927417.9062" sensor="Sensor#20121207101601.935806.9070">
+            <start>2000-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>641050000</gain>
+            <gainFrequency>10</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHN" datalogger="Datalogger#20121207101601.927417.9062" sensor="Sensor#20121207101601.943812.9079">
+            <start>2000-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>635197000</gain>
+            <gainFrequency>10</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHZ" datalogger="Datalogger#20121207101601.927417.9062" sensor="Sensor#20121207101601.951646.9088">
+            <start>2000-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>90</dip>
+            <gain>632132000</gain>
+            <gainFrequency>10</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station/ES/EJON/2000-01-01T00:00:00.0000Z" code="EJON">
+        <start>2000-01-01T00:00:00.0000Z</start>
+        <description>LA JONQUERA, SPAIN</description>
+        <latitude>42.4487</latitude>
+        <longitude>2.8886</longitude>
+        <elevation>570</elevation>
+        <place>LA JONQUERA</place>
+        <country> SPAIN</country>
+        <affiliation>SPANISH DIGITAL SEISMIC NETWORK</affiliation>
+        <archive>ODC</archive>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="SensorLocation#20121207100901.670761.3540" code="">
+          <start>2000-01-01T00:00:00.0000Z</start>
+          <latitude>42.4487</latitude>
+          <longitude>2.8886</longitude>
+          <elevation>570</elevation>
+          <stream code="HHE" datalogger="Datalogger#20121207101604.899989.9090" sensor="Sensor#20121207101604.908311.9098">
+            <start>2000-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>623529000</gain>
+            <gainFrequency>10</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHN" datalogger="Datalogger#20121207101604.899989.9090" sensor="Sensor#20121207101604.916202.9107">
+            <start>2000-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>618487000</gain>
+            <gainFrequency>10</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHZ" datalogger="Datalogger#20121207101604.899989.9090" sensor="Sensor#20121207101604.923993.9116">
+            <start>2000-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>90</dip>
+            <gain>437798000</gain>
+            <gainFrequency>10</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station/ES/EMUR/2000-01-01T00:00:00.0000Z" code="EMUR">
+        <start>2000-01-01T00:00:00.0000Z</start>
+        <description>LA MURTA, SPAIN</description>
+        <latitude>37.842201</latitude>
+        <longitude>-1.240499</longitude>
+        <elevation>574</elevation>
+        <place>LA MURTA</place>
+        <country> SPAIN</country>
+        <affiliation>SPANISH DIGITAL SEISMIC NETWORK</affiliation>
+        <archive>ODC</archive>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="SensorLocation#20121207100900.570903.3491" code="">
+          <start>2000-01-01T00:00:00.0000Z</start>
+          <latitude>37.842201</latitude>
+          <longitude>-1.240499</longitude>
+          <elevation>574</elevation>
+          <stream code="HHE" datalogger="Datalogger#20121207101607.808516.9118" sensor="Sensor#20121207101607.831628.9126">
+            <start>2000-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>637207000</gain>
+            <gainFrequency>10</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHN" datalogger="Datalogger#20121207101607.808516.9118" sensor="Sensor#20121207101607.854509.9135">
+            <start>2000-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>644472000</gain>
+            <gainFrequency>10</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHZ" datalogger="Datalogger#20121207101607.808516.9118" sensor="Sensor#20121207101607.87683.9144">
+            <start>2000-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>90</dip>
+            <gain>642617000</gain>
+            <gainFrequency>10</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station/ES/EOSO/2000-01-01T00:00:00.0000Z" code="EOSO">
+        <start>2000-01-01T00:00:00.0000Z</start>
+        <description>OSORIO, SPAIN</description>
+        <latitude>28.0718</latitude>
+        <longitude>-15.5525</longitude>
+        <elevation>760</elevation>
+        <place>OSORIO</place>
+        <country> SPAIN</country>
+        <affiliation>SPANISH DIGITAL SEISMIC NETWORK</affiliation>
+        <archive>ODC</archive>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="SensorLocation#20121207100900.154399.3470" code="">
+          <start>2000-01-01T00:00:00.0000Z</start>
+          <latitude>28.0718</latitude>
+          <longitude>-15.5525</longitude>
+          <elevation>760</elevation>
+          <stream code="HHE" datalogger="Datalogger#20121207101610.628023.9146" sensor="Sensor#20121207101610.65175.9154">
+            <start>2000-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>629518000</gain>
+            <gainFrequency>10</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHN" datalogger="Datalogger#20121207101610.628023.9146" sensor="Sensor#20121207101610.674485.9163">
+            <start>2000-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>634312000</gain>
+            <gainFrequency>10</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHZ" datalogger="Datalogger#20121207101610.628023.9146" sensor="Sensor#20121207101610.696952.9172">
+            <start>2000-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>90</dip>
+            <gain>631758000</gain>
+            <gainFrequency>10</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+    </network>
+  </Inventory>
+</seiscomp>

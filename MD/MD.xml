@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seiscomp xmlns="http://geofon.gfz-potsdam.de/ns/seiscomp3-schema/0.7" version="0.7">
+  <Inventory>
+    <sensor publicID="Sensor#20131119103954.199826.7" name="SORM.2009.299.HE" response="ResponsePAZ#20131119103954.200093.8">
+      <description>CMG40T.1to100/Quanterra</description>
+      <model>CMG40T.1to100/Quanterra</model>
+      <manufacturer>Guralp</manufacturer>
+      <unit>M/S</unit>
+      <remark/>
+      <calibration serialNumber="yyyy" channel="2">
+        <start>2009-10-26T00:00:00.0000Z</start>
+        <gain>1966.1</gain>
+        <gainFrequency>0.7</gainFrequency>
+        <remark/>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20131119103954.201218.10" name="SORM.2009.299.HN" response="ResponsePAZ#20131119103954.201301.11">
+      <description>CMG40T.1to100/Quanterra</description>
+      <model>CMG40T.1to100/Quanterra</model>
+      <manufacturer>Guralp</manufacturer>
+      <unit>M/S</unit>
+      <remark/>
+      <calibration serialNumber="yyyy" channel="1">
+        <start>2009-10-26T00:00:00.0000Z</start>
+        <gain>1966.1</gain>
+        <gainFrequency>0.7</gainFrequency>
+        <remark/>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20131119103954.202181.13" name="SORM.2009.299.HZ" response="ResponsePAZ#20131119103954.202255.14">
+      <description>CMG40T.1to100/Quanterra</description>
+      <model>CMG40T.1to100/Quanterra</model>
+      <manufacturer>Guralp</manufacturer>
+      <unit>M/S</unit>
+      <remark/>
+      <calibration serialNumber="yyyy" channel="0">
+        <start>2009-10-26T00:00:00.0000Z</start>
+        <gain>1966.1</gain>
+        <gainFrequency>0.7</gainFrequency>
+        <remark/>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20131119103954.205873.20" name="SORM.2009.299.NE" response="ResponsePAZ#20131119103954.205954.21">
+      <description>200</description>
+      <model>200</model>
+      <manufacturer>Episensor</manufacturer>
+      <unit>M/S**2</unit>
+      <remark/>
+      <calibration serialNumber="yyyy" channel="2">
+        <start>2009-10-26T00:00:00.0000Z</start>
+        <gain>2.03836</gain>
+        <gainFrequency>0.02</gainFrequency>
+        <remark/>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20131119103954.2068.23" name="SORM.2009.299.NN" response="ResponsePAZ#20131119103954.206883.24">
+      <description>200</description>
+      <model>200</model>
+      <manufacturer>Episensor</manufacturer>
+      <unit>M/S**2</unit>
+      <remark/>
+      <calibration serialNumber="yyyy" channel="1">
+        <start>2009-10-26T00:00:00.0000Z</start>
+        <gain>2.03836</gain>
+        <gainFrequency>0.02</gainFrequency>
+        <remark/>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20131119103954.207734.26" name="SORM.2009.299.NZ" response="ResponsePAZ#20131119103954.207815.27">
+      <description>200</description>
+      <model>200</model>
+      <manufacturer>Episensor</manufacturer>
+      <unit>M/S**2</unit>
+      <remark/>
+      <calibration serialNumber="yyyy" channel="0">
+        <start>2009-10-26T00:00:00.0000Z</start>
+        <gain>2.03836</gain>
+        <gainFrequency>0.02</gainFrequency>
+        <remark/>
+      </calibration>
+    </sensor>
+    <datalogger publicID="Datalogger#20131119103954.198756.5" name="SORM.2009.299.H">
+      <description>SORM.2009.299.H</description>
+      <gain>419430</gain>
+      <maxClockDrift>0.01</maxClockDrift>
+      <remark/>
+      <calibration serialNumber="xxxx" channel="0">
+        <start>2009-10-26T00:00:00.0000Z</start>
+        <gain>419430</gain>
+        <gainFrequency>0.7</gainFrequency>
+        <remark/>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="1">
+        <start>2009-10-26T00:00:00.0000Z</start>
+        <gain>419430</gain>
+        <gainFrequency>0.7</gainFrequency>
+        <remark/>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="2">
+        <start>2009-10-26T00:00:00.0000Z</start>
+        <gain>419430</gain>
+        <gainFrequency>0.7</gainFrequency>
+        <remark/>
+      </calibration>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <analogueFilterChain/>
+        <digitalFilterChain>ResponseFIR#20131119103954.201732.12</digitalFilterChain>
+      </decimation>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <analogueFilterChain/>
+        <digitalFilterChain>ResponseFIR#20131119103954.204526.17</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger#20131119103954.205368.18" name="SORM.2009.299.N">
+      <description>SORM.2009.299.N</description>
+      <gain>419430</gain>
+      <maxClockDrift>0.01</maxClockDrift>
+      <remark/>
+      <calibration serialNumber="xxxx" channel="0">
+        <start>2009-10-26T00:00:00.0000Z</start>
+        <gain>419430</gain>
+        <gainFrequency>0.02</gainFrequency>
+        <remark/>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="1">
+        <start>2009-10-26T00:00:00.0000Z</start>
+        <gain>419430</gain>
+        <gainFrequency>0.02</gainFrequency>
+        <remark/>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="2">
+        <start>2009-10-26T00:00:00.0000Z</start>
+        <gain>419430</gain>
+        <gainFrequency>0.02</gainFrequency>
+        <remark/>
+      </calibration>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <analogueFilterChain/>
+        <digitalFilterChain>ResponseFIR#20131119103954.20729.25</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <responsePAZ publicID="ResponsePAZ#20131119103954.200093.8" name="SORM.2009.299.HE">
+      <type>A</type>
+      <gain>1966.1</gain>
+      <gainFrequency>0.7</gainFrequency>
+      <normalizationFactor>570672000</normalizationFactor>
+      <normalizationFrequency>0.7</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>5</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.148522,0.148522) (-0.148522,-0.148522) (-1130.4,0) (-1004.8,0) (-502.4,0)</poles>
+      <remark/>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20131119103954.201301.11" name="SORM.2009.299.HN">
+      <type>A</type>
+      <gain>1966.1</gain>
+      <gainFrequency>0.7</gainFrequency>
+      <normalizationFactor>570672000</normalizationFactor>
+      <normalizationFrequency>0.7</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>5</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.148522,0.148522) (-0.148522,-0.148522) (-1130.4,0) (-1004.8,0) (-502.4,0)</poles>
+      <remark/>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20131119103954.202255.14" name="SORM.2009.299.HZ">
+      <type>A</type>
+      <gain>1966.1</gain>
+      <gainFrequency>0.7</gainFrequency>
+      <normalizationFactor>570672000</normalizationFactor>
+      <normalizationFrequency>0.7</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>5</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.148522,0.148522) (-0.148522,-0.148522) (-1130.4,0) (-1004.8,0) (-502.4,0)</poles>
+      <remark/>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20131119103954.205954.21" name="SORM.2009.299.NE">
+      <type>A</type>
+      <gain>2.03836</gain>
+      <gainFrequency>0.02</gainFrequency>
+      <normalizationFactor>2.45956e+13</normalizationFactor>
+      <normalizationFrequency>0.02</normalizationFrequency>
+      <numberOfZeros>0</numberOfZeros>
+      <numberOfPoles>4</numberOfPoles>
+      <zeros/>
+      <poles>(-981,1009) (-981,-1009) (-3290,1263) (-3290,-1263)</poles>
+      <remark/>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20131119103954.206883.24" name="SORM.2009.299.NN">
+      <type>A</type>
+      <gain>2.03836</gain>
+      <gainFrequency>0.02</gainFrequency>
+      <normalizationFactor>2.45956e+13</normalizationFactor>
+      <normalizationFrequency>0.02</normalizationFrequency>
+      <numberOfZeros>0</numberOfZeros>
+      <numberOfPoles>4</numberOfPoles>
+      <zeros/>
+      <poles>(-981,1009) (-981,-1009) (-3290,1263) (-3290,-1263)</poles>
+      <remark/>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20131119103954.207815.27" name="SORM.2009.299.NZ">
+      <type>A</type>
+      <gain>2.03836</gain>
+      <gainFrequency>0.02</gainFrequency>
+      <normalizationFactor>2.45956e+13</normalizationFactor>
+      <normalizationFrequency>0.02</normalizationFrequency>
+      <numberOfZeros>0</numberOfZeros>
+      <numberOfPoles>4</numberOfPoles>
+      <zeros/>
+      <poles>(-981,1009) (-981,-1009) (-3290,1263) (-3290,-1263)</poles>
+      <remark/>
+    </responsePAZ>
+    <responseFIR publicID="ResponseFIR#20131119103954.201732.12" name="SORM..BHZ.2009.299.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>34</delay>
+      <correction>34</correction>
+      <numberOfCoefficients>67</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>3.77162e-17 -1.69713e-10 1.71838e-08 -2.43964e-07 2.58252e-07 1.5609e-06 -1.81704e-06 2.41376e-06 -3.70491e-06 8.73276e-07 3.64235e-05 -0.000246833 -0.000393599 0.000655961 -0.00102025 0.00123051 -0.00106043 0.000288613 0.00122683 -0.00345855 0.00614628 -0.00875821 0.0105179 -0.0104955 0.00776882 -0.0016282 -0.00764096 0.0198944 -0.0387619 0.0551044 -0.0713696 0.0833036 -0.0867195 0.0628769 0.889951 0.167002 -0.128687 0.100726 -0.0755007 0.0515952 -0.0311146 0.011006 0.000476173 -0.00823882 0.0124211 -0.0131333 0.0114417 -0.00845235 0.00513644 -0.00220567 6.47577e-05 0.00117235 -0.00160962 0.00148359 -0.00106529 0.000590532 -0.000273576 -0.000321484 3.98515e-05 1.0833e-06 -4.64297e-06 2.88448e-06 -1.62081e-06 1.31617e-06 4.72519e-07 -3.29637e-07 2.71423e-08</coefficients>
+      <remark/>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20131119103954.204526.17" name="SORM..HHZ.2009.299.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>33</delay>
+      <correction>33</correction>
+      <numberOfCoefficients>65</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>6.43711e-14 6.58258e-08 -7.53118e-07 6.26743e-07 2.47069e-06 -3.15256e-06 5.4824e-06 -7.78113e-06 5.10559e-06 3.31568e-05 -0.000268238 -0.000353056 0.000622489 -0.00101006 0.00127276 -0.00118431 0.000512697 0.000910091 -0.00309045 0.00581107 -0.00857787 0.0106344 -0.0110399 0.00881308 -0.00307778 -0.00464808 0.016017 -0.0372088 0.0536013 -0.0726163 0.0878551 -0.0979276 0.0946782 0.888891 0.138422 -0.115331 0.0951158 -0.0743198 0.0521264 -0.0339684 0.0122831 -0.00140239 -0.00585837 0.0107618 -0.0121488 0.0110276 -0.00845663 0.00539437 -0.00257072 0.000426728 0.000881093 -0.00141391 0.00137928 -0.00102993 0.000596299 -0.000303778 -0.000298773 3.41094e-05 5.26981e-06 -8.09269e-06 5.56459e-06 -2.95383e-06 2.26184e-06 7.69085e-07 -7.49759e-07</coefficients>
+      <remark/>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20131119103954.20729.25" name="SORM..HNZ.2009.299.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>33</delay>
+      <correction>33</correction>
+      <numberOfCoefficients>65</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>6.43711e-14 6.58258e-08 -7.53118e-07 6.26743e-07 2.47069e-06 -3.15256e-06 5.4824e-06 -7.78113e-06 5.10559e-06 3.31568e-05 -0.000268238 -0.000353056 0.000622489 -0.00101006 0.00127276 -0.00118431 0.000512697 0.000910091 -0.00309045 0.00581107 -0.00857787 0.0106344 -0.0110399 0.00881308 -0.00307778 -0.00464808 0.016017 -0.0372088 0.0536013 -0.0726163 0.0878551 -0.0979276 0.0946782 0.888891 0.138422 -0.115331 0.0951158 -0.0743198 0.0521264 -0.0339684 0.0122831 -0.00140239 -0.00585837 0.0107618 -0.0121488 0.0110276 -0.00845663 0.00539437 -0.00257072 0.000426728 0.000881093 -0.00141391 0.00137928 -0.00102993 0.000596299 -0.000303778 -0.000298773 3.41094e-05 5.26981e-06 -8.09269e-06 5.56459e-06 -2.95383e-06 2.26184e-06 7.69085e-07 -7.49759e-07</coefficients>
+      <remark/>
+    </responseFIR>
+    <network publicID="Network#20131119103954.196451.2" code="MD">
+      <start>1980-01-01T00:00:00.0000Z</start>
+      <description>Moldova Network</description>
+      <netClass>p</netClass>
+      <archive>NIEP</archive>
+      <restricted>false</restricted>
+      <shared>true</shared>
+      <remark/>
+      <station publicID="Station#20131119103954.196798.3" code="SORM">
+        <start>2009-10-26T00:00:00.0000Z</start>
+        <description>Sorm</description>
+        <latitude>48.135</latitude>
+        <longitude>28.3513</longitude>
+        <elevation>640</elevation>
+        <place>Sorm</place>
+        <affiliation>Moldova Network</affiliation>
+        <archive>NIEP</archive>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <remark/>
+        <sensorLocation publicID="SensorLocation#20131119103954.198395.4" code="">
+          <start>2009-10-26T00:00:00.0000Z</start>
+          <latitude>48.135</latitude>
+          <longitude>28.3513</longitude>
+          <elevation>640</elevation>
+          <auxStream code="LCE" device="SORM.2009.299.330">
+            <start>2009-10-26T00:00:00.0000Z</start>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+          </auxStream>
+          <auxStream code="LCQ" device="SORM.2009.299.330">
+            <start>2009-10-26T00:00:00.0000Z</start>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+          </auxStream>
+          <auxStream code="VCO" device="SORM.2009.299.330">
+            <start>2009-10-26T00:00:00.0000Z</start>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+          </auxStream>
+          <auxStream code="VEA" device="SORM.2009.299.330">
+            <start>2009-10-26T00:00:00.0000Z</start>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+          </auxStream>
+          <auxStream code="VEC" device="SORM.2009.299.330">
+            <start>2009-10-26T00:00:00.0000Z</start>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+          </auxStream>
+          <auxStream code="VEP" device="SORM.2009.299.330">
+            <start>2009-10-26T00:00:00.0000Z</start>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+          </auxStream>
+          <auxStream code="VKI" device="SORM.2009.299.330">
+            <start>2009-10-26T00:00:00.0000Z</start>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+          </auxStream>
+          <auxStream code="VMU" device="SORM.2009.299.330">
+            <start>2009-10-26T00:00:00.0000Z</start>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+          </auxStream>
+          <auxStream code="VMV" device="SORM.2009.299.330">
+            <start>2009-10-26T00:00:00.0000Z</start>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+          </auxStream>
+          <auxStream code="VMW" device="SORM.2009.299.330">
+            <start>2009-10-26T00:00:00.0000Z</start>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+          </auxStream>
+          <auxStream code="VPB" device="SORM.2009.299.330">
+            <start>2009-10-26T00:00:00.0000Z</start>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+          </auxStream>
+          <stream code="BHE" datalogger="Datalogger#20131119103954.198756.5" sensor="Sensor#20131119103954.199826.7">
+            <start>2009-10-26T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>824618000</gain>
+            <gainFrequency>0.3</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHN" datalogger="Datalogger#20131119103954.198756.5" sensor="Sensor#20131119103954.201218.10">
+            <start>2009-10-26T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>824618000</gain>
+            <gainFrequency>0.3</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHZ" datalogger="Datalogger#20131119103954.198756.5" sensor="Sensor#20131119103954.202181.13">
+            <start>2009-10-26T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>824618000</gain>
+            <gainFrequency>0.3</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHE" datalogger="Datalogger#20131119103954.198756.5" sensor="Sensor#20131119103954.199826.7">
+            <start>2009-10-26T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>824643000</gain>
+            <gainFrequency>0.7</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHN" datalogger="Datalogger#20131119103954.198756.5" sensor="Sensor#20131119103954.201218.10">
+            <start>2009-10-26T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>824643000</gain>
+            <gainFrequency>0.7</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHZ" datalogger="Datalogger#20131119103954.198756.5" sensor="Sensor#20131119103954.202181.13">
+            <start>2009-10-26T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>824643000</gain>
+            <gainFrequency>0.7</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HNE" datalogger="Datalogger#20131119103954.205368.18" sensor="Sensor#20131119103954.205873.20">
+            <start>2009-10-26T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>854950</gain>
+            <gainFrequency>0.02</gainFrequency>
+            <gainUnit>M/S**2</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HNN" datalogger="Datalogger#20131119103954.205368.18" sensor="Sensor#20131119103954.2068.23">
+            <start>2009-10-26T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>854950</gain>
+            <gainFrequency>0.02</gainFrequency>
+            <gainUnit>M/S**2</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HNZ" datalogger="Datalogger#20131119103954.205368.18" sensor="Sensor#20131119103954.207734.26">
+            <start>2009-10-26T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>854950</gain>
+            <gainFrequency>0.02</gainFrequency>
+            <gainUnit>M/S**2</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+    </network>
+  </Inventory>
+</seiscomp>

@@ -1,0 +1,44 @@
+#		+-----------------------------------------------------------------------------+
+#		| +-------------------------------------------------------------------------+ |
+#		| |                       RDSEED version 4.8                                | |
+#		| |    IRIS Standard for Exchange of Earthquake Data (SEED) data reader     | |
+#		| +-------------------------------------------------------------------------+ |
+#		+-----------------------------------------------------------------------------+
+#		
+#		
+#		+-----------------------------------------------------------------------------+
+#		| Volume Header    |  General information about this tape  |        SEED tape |
+#		+-----------------------------------------------------------------------------+
+#		
+B010F03     SEED Format version:                                                      2.3
+B010F04     Logical record length:                                             4096 bytes
+B010F05     Starting date of this volume:                          1999,078,00:00:00.0000
+B010F06     Ending date of this volume:                                                  
+B010F07     Creation Date of this volume:                          2013,099,07:14:54.1513
+B010F08     Originating Organization:                                  ORFEUS Data Center
+B010F09     Volume Label:                                                          ORFEUS
+#		
+#		Volume Station Header Index:
+#		Station  Station header starts at record
+B011F04-05  UPP           3
+#		
+#		Volume Time Span Index:
+#			Beginning of Span       End of Span             Starts at record number
+#		
+#		+-----------------------------------------------------------------------------+
+#		| Station header   |             Station   UPP             |        SEED tape |
+#		+-----------------------------------------------------------------------------+
+#		
+B050F03         Station code:                          UPP
+B050F04         Latitude:                              59.858300
+B050F05         Longitude:                             17.626700
+B050F06         Elevation:                             14.000000
+B050F09         Name:                                  Uppsala, Sweden
+B050F10         Owner Code Lookup:  1                Geophysical Institute of the University of Uppsala
+B050F11         32-bit word order:                     3210
+B050F12         16-bit word order:                     10
+B050F13         Starting date:                         1999,078,00:00:00.0000
+B050F14         Ending date:                           (null)
+B050F15         Update flag:                           N
+B050F16         Network Code:                          UP
+#		

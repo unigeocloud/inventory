@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seiscomp xmlns="http://geofon.gfz-potsdam.de/ns/seiscomp3-schema/0.7" version="0.7">
+  <Inventory>
+    <sensor publicID="Sensor#20121207101809.946353.10163" name="LTK.2006.352.HE" response="ResponsePAZ#20121207101809.947121.10164">
+      <description>T</description>
+      <model>T</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="2">
+        <start>2006-12-18T00:00:00.0000Z</start>
+        <gain>6020.01</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207101809.939575.10160" name="LTK.2006.352.HN" response="ResponsePAZ#20121207101809.940372.10161">
+      <description>T</description>
+      <model>T</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="1">
+        <start>2006-12-18T00:00:00.0000Z</start>
+        <gain>5960</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207101809.931801.10157" name="LTK.2006.352.HZ" response="ResponsePAZ#20121207101809.933315.10158">
+      <description>T</description>
+      <model>T</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="0">
+        <start>2006-12-18T00:00:00.0000Z</start>
+        <gain>5999.99</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <datalogger publicID="Datalogger#20121207101809.924889.10155" name="LTK.2006.352.H">
+      <description>LTK.2006.352.H</description>
+      <gain>400000</gain>
+      <maxClockDrift>0</maxClockDrift>
+      <calibration serialNumber="xxxx" channel="0">
+        <start>2006-12-18T00:00:00.0000Z</start>
+        <gain>400000</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="1">
+        <start>2006-12-18T00:00:00.0000Z</start>
+        <gain>400000</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="2">
+        <start>2006-12-18T00:00:00.0000Z</start>
+        <gain>400000</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <decimation sampleRateNumerator="50" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR#20121207101809.944124.10162</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <responsePAZ publicID="ResponsePAZ#20121207101809.947121.10164" name="LTK.2006.352.HE">
+      <type>A</type>
+      <gain>6020.01</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>571572000</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>5</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.037008,0.037008) (-0.037008,-0.037008) (-1130.97,0) (-1005.31,0) (-502.655,0)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207101809.940372.10161" name="LTK.2006.352.HN">
+      <type>A</type>
+      <gain>5960</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>571572000</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>5</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.037008,0.037008) (-0.037008,-0.037008) (-1130.97,0) (-1005.31,0) (-502.655,0)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207101809.933315.10158" name="LTK.2006.352.HZ">
+      <type>A</type>
+      <gain>5999.99</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>571572000</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>5</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.037008,0.037008) (-0.037008,-0.037008) (-1130.97,0) (-1005.31,0) (-502.655,0)</poles>
+    </responsePAZ>
+    <responseFIR publicID="ResponseFIR#20121207101809.944124.10162" name="LTK..BHE.2006.352.stage_3">
+      <gain>1</gain>
+      <decimationFactor>2</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>48</numberOfCoefficients>
+      <symmetry>C</symmetry>
+      <coefficients>-4.62436e-06 -8.2583e-05 -0.000226014 -0.000253901 7.66567e-07 0.000305019 0.000171279 -0.000349447 -0.000449101 0.000263158 0.000789772 3.8573e-05 -0.00109178 -0.000599996 0.00120643 0.00139715 -0.000962468 -0.00231327 0.000207827 0.00313007 0.00113702 -0.00354335 -0.00302424 0.00320764 0.00523801 -0.00180384 -0.00737591 -0.000872973 0.00887091 0.00483185 -0.0090423 -0.0098139 0.00717914 0.015253 -0.00262873 -0.0202676 -0.00514291 0.0236636 0.0165786 -0.0238755 -0.0322795 0.0186068 0.0539421 -0.00314052 -0.0884962 -0.0401486 0.184764 0.406601</coefficients>
+    </responseFIR>
+    <network publicID="Network/HP" code="HP">
+      <start>1980-01-01T00:00:00.0000Z</start>
+      <description>University of Patras, Seismological Laborator</description>
+      <institutions>Univ. Patras</institutions>
+      <region>Greece</region>
+      <type>BB</type>
+      <netClass>p</netClass>
+      <archive>ODC</archive>
+      <restricted>false</restricted>
+      <shared>true</shared>
+      <station publicID="Station/HP/LTK/2006-12-18T00:00:00.0000Z" code="LTK">
+        <start>2006-12-18T00:00:00.0000Z</start>
+        <description>LOUTRAKI, GREECE</description>
+        <latitude>38.0228</latitude>
+        <longitude>22.9673</longitude>
+        <elevation>408</elevation>
+        <place>LOUTRAKI</place>
+        <country> GREECE</country>
+        <affiliation>University of Patras, Seismological Laborator</affiliation>
+        <archive>ODC</archive>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="SensorLocation#20121207100859.182612.3425" code="">
+          <start>2006-12-18T00:00:00.0000Z</start>
+          <latitude>38.0228</latitude>
+          <longitude>22.9673</longitude>
+          <elevation>408</elevation>
+          <stream code="BHE" datalogger="Datalogger#20121207101809.924889.10155" sensor="Sensor#20121207101809.946353.10163">
+            <start>2006-12-18T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>50</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>2408000000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHN" datalogger="Datalogger#20121207101809.924889.10155" sensor="Sensor#20121207101809.939575.10160">
+            <start>2006-12-18T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>50</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>2384000000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHZ" datalogger="Datalogger#20121207101809.924889.10155" sensor="Sensor#20121207101809.931801.10157">
+            <start>2006-12-18T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>50</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>2400000000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+    </network>
+  </Inventory>
+</seiscomp>

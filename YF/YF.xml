@@ -1,0 +1,1553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seiscomp xmlns="http://geofon.gfz-potsdam.de/ns/seiscomp3-schema/0.7" version="0.7">
+  <Inventory>
+    <sensor publicID="Sensor#20121207102627.896156.15200" name="ABSA.2000.251.HE" response="ResponsePAZ#20121207102627.897901.15201">
+      <description>STS2</description>
+      <model>STS2</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="2">
+        <start>2000-09-07T00:00:00.0000Z</start>
+        <end>2002-04-02T23:59:59.0000Z</end>
+        <gain>2.4e+10</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207102627.900541.15202" name="ABSA.2000.251.HN" response="ResponsePAZ#20121207102627.901484.15203">
+      <description>STS2</description>
+      <model>STS2</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="1">
+        <start>2000-09-07T00:00:00.0000Z</start>
+        <end>2002-04-02T23:59:59.0000Z</end>
+        <gain>2.4e+10</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207102627.903774.15204" name="ABSA.2000.251.HZ" response="ResponsePAZ#20121207102627.904711.15205">
+      <description>STS2</description>
+      <model>STS2</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="0">
+        <start>2000-09-07T00:00:00.0000Z</start>
+        <end>2002-04-02T23:59:59.0000Z</end>
+        <gain>2.4e+10</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207102633.643768.15207" name="APER.1999.308.HE" response="ResponsePAZ#20121207102633.645534.15208">
+      <description>STS2</description>
+      <model>STS2</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="2">
+        <start>1999-11-04T00:00:00.0000Z</start>
+        <end>2001-08-08T23:59:59.0000Z</end>
+        <gain>9.6e+10</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207102633.648157.15209" name="APER.1999.308.HN" response="ResponsePAZ#20121207102633.649089.15210">
+      <description>STS2</description>
+      <model>STS2</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="1">
+        <start>1999-11-04T00:00:00.0000Z</start>
+        <end>2001-08-08T23:59:59.0000Z</end>
+        <gain>9.6e+10</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207102633.651421.15211" name="APER.1999.308.HZ" response="ResponsePAZ#20121207102633.652358.15212">
+      <description>STS2</description>
+      <model>STS2</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="0">
+        <start>1999-11-04T00:00:00.0000Z</start>
+        <end>2001-08-08T23:59:59.0000Z</end>
+        <gain>9.6e+10</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207102639.010413.15214" name="CDLV.1999.162.HE" response="ResponsePAZ#20121207102639.012011.15215">
+      <description>STS2</description>
+      <model>STS2</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="2">
+        <start>1999-06-11T00:00:00.0000Z</start>
+        <end>2001-04-05T23:59:59.0000Z</end>
+        <gain>9.6e+10</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207102639.014651.15216" name="CDLV.1999.162.HN" response="ResponsePAZ#20121207102639.015567.15217">
+      <description>STS2</description>
+      <model>STS2</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="1">
+        <start>1999-06-11T00:00:00.0000Z</start>
+        <end>2001-04-05T23:59:59.0000Z</end>
+        <gain>9.6e+10</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207102639.017903.15218" name="CDLV.1999.162.HZ" response="ResponsePAZ#20121207102639.018822.15219">
+      <description>STS2</description>
+      <model>STS2</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="0">
+        <start>1999-06-11T00:00:00.0000Z</start>
+        <end>2001-04-05T23:59:59.0000Z</end>
+        <gain>9.6e+10</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207102644.427068.15221" name="DUOK.1999.199.HE" response="ResponsePAZ#20121207102644.428738.15222">
+      <description>TS2</description>
+      <model>TS2</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="2">
+        <start>1999-07-18T00:00:00.0000Z</start>
+        <end>2001-02-04T23:59:59.0000Z</end>
+        <gain>9.6e+10</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207102644.431338.15223" name="DUOK.1999.199.HN" response="ResponsePAZ#20121207102644.432322.15224">
+      <description>TS2</description>
+      <model>TS2</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="1">
+        <start>1999-07-18T00:00:00.0000Z</start>
+        <end>2001-02-04T23:59:59.0000Z</end>
+        <gain>9.6e+10</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207102644.434659.15225" name="DUOK.1999.199.HZ" response="ResponsePAZ#20121207102644.435673.15226">
+      <description>TS2</description>
+      <model>TS2</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="0">
+        <start>1999-07-18T00:00:00.0000Z</start>
+        <end>2001-02-04T23:59:59.0000Z</end>
+        <gain>9.6e+10</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207102650.144594.15228" name="EBRE.1999.168.HE" response="ResponsePAZ#20121207102650.146353.15229">
+      <description>STS2</description>
+      <model>STS2</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="2">
+        <start>1999-06-17T00:00:00.0000Z</start>
+        <end>2000-11-13T23:59:59.0000Z</end>
+        <gain>9.6e+10</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207102650.149005.15230" name="EBRE.1999.168.HN" response="ResponsePAZ#20121207102650.149949.15231">
+      <description>STS2</description>
+      <model>STS2</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="1">
+        <start>1999-06-17T00:00:00.0000Z</start>
+        <end>2000-11-13T23:59:59.0000Z</end>
+        <gain>9.6e+10</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207102650.152273.15232" name="EBRE.1999.168.HZ" response="ResponsePAZ#20121207102650.153205.15233">
+      <description>STS2</description>
+      <model>STS2</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="0">
+        <start>1999-06-17T00:00:00.0000Z</start>
+        <end>2000-11-13T23:59:59.0000Z</end>
+        <gain>9.6e+10</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207102655.643399.15235" name="HVAR.1999.289.HE" response="ResponsePAZ#20121207102655.645176.15236">
+      <description>TS2</description>
+      <model>TS2</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="2">
+        <start>1999-10-16T00:00:00.0000Z</start>
+        <end>2001-02-08T23:59:59.0000Z</end>
+        <gain>9.6e+10</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207102655.647785.15237" name="HVAR.1999.289.HN" response="ResponsePAZ#20121207102655.648722.15238">
+      <description>TS2</description>
+      <model>TS2</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="1">
+        <start>1999-10-16T00:00:00.0000Z</start>
+        <end>2001-02-08T23:59:59.0000Z</end>
+        <gain>9.6e+10</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207102655.65105.15239" name="HVAR.1999.289.HZ" response="ResponsePAZ#20121207102655.651985.15240">
+      <description>TS2</description>
+      <model>TS2</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="0">
+        <start>1999-10-16T00:00:00.0000Z</start>
+        <end>2001-02-08T23:59:59.0000Z</end>
+        <gain>9.6e+10</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207102701.147641.15242" name="ITHO.1999.297.HE" response="ResponsePAZ#20121207102701.149403.15243">
+      <description>STS2</description>
+      <model>STS2</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="2">
+        <start>1999-10-24T00:00:00.0000Z</start>
+        <end>2001-07-22T23:59:59.0000Z</end>
+        <gain>9.6e+10</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207102701.152045.15244" name="ITHO.1999.297.HN" response="ResponsePAZ#20121207102701.152981.15245">
+      <description>STS2</description>
+      <model>STS2</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="1">
+        <start>1999-10-24T00:00:00.0000Z</start>
+        <end>2001-07-22T23:59:59.0000Z</end>
+        <gain>9.6e+10</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207102701.155332.15246" name="ITHO.1999.297.HZ" response="ResponsePAZ#20121207102701.156285.15247">
+      <description>STS2</description>
+      <model>STS2</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="0">
+        <start>1999-10-24T00:00:00.0000Z</start>
+        <end>2001-07-22T23:59:59.0000Z</end>
+        <gain>9.6e+10</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207102706.716973.15249" name="KOUM.1999.301.HE" response="ResponsePAZ#20121207102706.718745.15250">
+      <description>STS2</description>
+      <model>STS2</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="2">
+        <start>1999-10-28T00:00:00.0000Z</start>
+        <end>2001-05-11T23:59:59.0000Z</end>
+        <gain>2.4e+10</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207102706.721401.15251" name="KOUM.1999.301.HN" response="ResponsePAZ#20121207102706.722309.15252">
+      <description>STS2</description>
+      <model>STS2</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="1">
+        <start>1999-10-28T00:00:00.0000Z</start>
+        <end>2001-05-11T23:59:59.0000Z</end>
+        <gain>2.4e+10</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207102706.724639.15253" name="KOUM.1999.301.HZ" response="ResponsePAZ#20121207102706.725602.15254">
+      <description>STS2</description>
+      <model>STS2</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="0">
+        <start>1999-10-28T00:00:00.0000Z</start>
+        <end>2001-05-11T23:59:59.0000Z</end>
+        <gain>2.4e+10</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207102712.219865.15256" name="MARJ.2000.145.HE" response="ResponsePAZ#20121207102712.221606.15257">
+      <description>STS2</description>
+      <model>STS2</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="2">
+        <start>2000-05-24T00:00:00.0000Z</start>
+        <end>2001-06-13T23:59:59.0000Z</end>
+        <gain>2.4e+10</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207102712.224207.15258" name="MARJ.2000.145.HN" response="ResponsePAZ#20121207102712.225142.15259">
+      <description>STS2</description>
+      <model>STS2</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="1">
+        <start>2000-05-24T00:00:00.0000Z</start>
+        <end>2001-06-13T23:59:59.0000Z</end>
+        <gain>2.4e+10</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207102712.227458.15260" name="MARJ.2000.145.HZ" response="ResponsePAZ#20121207102712.228441.15261">
+      <description>STS2</description>
+      <model>STS2</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="0">
+        <start>2000-05-24T00:00:00.0000Z</start>
+        <end>2001-06-13T23:59:59.0000Z</end>
+        <gain>2.4e+10</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <datalogger publicID="Datalogger#20121207102627.894892.15199" name="ABSA.2000.251.H">
+      <description>ABSA.2000.251.H</description>
+      <gain>1</gain>
+      <maxClockDrift>0.31</maxClockDrift>
+      <calibration serialNumber="xxxx" channel="0">
+        <start>2000-09-07T00:00:00.0000Z</start>
+        <end>2002-04-02T23:59:59.0000Z</end>
+        <gain>1</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="1">
+        <start>2000-09-07T00:00:00.0000Z</start>
+        <end>2002-04-02T23:59:59.0000Z</end>
+        <gain>1</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="2">
+        <start>2000-09-07T00:00:00.0000Z</start>
+        <end>2002-04-02T23:59:59.0000Z</end>
+        <gain>1</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <decimation sampleRateNumerator="31" sampleRateDenominator="1"/>
+    </datalogger>
+    <datalogger publicID="Datalogger#20121207102633.642641.15206" name="APER.1999.308.H">
+      <description>APER.1999.308.H</description>
+      <gain>1</gain>
+      <maxClockDrift>0.31</maxClockDrift>
+      <calibration serialNumber="xxxx" channel="0">
+        <start>1999-11-04T00:00:00.0000Z</start>
+        <end>2001-08-08T23:59:59.0000Z</end>
+        <gain>1</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="1">
+        <start>1999-11-04T00:00:00.0000Z</start>
+        <end>2001-08-08T23:59:59.0000Z</end>
+        <gain>1</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="2">
+        <start>1999-11-04T00:00:00.0000Z</start>
+        <end>2001-08-08T23:59:59.0000Z</end>
+        <gain>1</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <decimation sampleRateNumerator="31" sampleRateDenominator="1"/>
+    </datalogger>
+    <datalogger publicID="Datalogger#20121207102639.009343.15213" name="CDLV.1999.162.H">
+      <description>CDLV.1999.162.H</description>
+      <gain>1</gain>
+      <maxClockDrift>0.31</maxClockDrift>
+      <calibration serialNumber="xxxx" channel="0">
+        <start>1999-06-11T00:00:00.0000Z</start>
+        <end>2001-04-05T23:59:59.0000Z</end>
+        <gain>1</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="1">
+        <start>1999-06-11T00:00:00.0000Z</start>
+        <end>2001-04-05T23:59:59.0000Z</end>
+        <gain>1</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="2">
+        <start>1999-06-11T00:00:00.0000Z</start>
+        <end>2001-04-05T23:59:59.0000Z</end>
+        <gain>1</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <decimation sampleRateNumerator="31" sampleRateDenominator="1"/>
+    </datalogger>
+    <datalogger publicID="Datalogger#20121207102644.425978.15220" name="DUOK.1999.199.H">
+      <description>DUOK.1999.199.H</description>
+      <gain>1</gain>
+      <maxClockDrift>0.31</maxClockDrift>
+      <calibration serialNumber="xxxx" channel="0">
+        <start>1999-07-18T00:00:00.0000Z</start>
+        <end>2001-02-04T23:59:59.0000Z</end>
+        <gain>1</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="1">
+        <start>1999-07-18T00:00:00.0000Z</start>
+        <end>2001-02-04T23:59:59.0000Z</end>
+        <gain>1</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="2">
+        <start>1999-07-18T00:00:00.0000Z</start>
+        <end>2001-02-04T23:59:59.0000Z</end>
+        <gain>1</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <decimation sampleRateNumerator="31" sampleRateDenominator="1"/>
+    </datalogger>
+    <datalogger publicID="Datalogger#20121207102650.143338.15227" name="EBRE.1999.168.H">
+      <description>EBRE.1999.168.H</description>
+      <gain>1</gain>
+      <maxClockDrift>0.31</maxClockDrift>
+      <calibration serialNumber="xxxx" channel="0">
+        <start>1999-06-17T00:00:00.0000Z</start>
+        <end>2000-11-13T23:59:59.0000Z</end>
+        <gain>1</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="1">
+        <start>1999-06-17T00:00:00.0000Z</start>
+        <end>2000-11-13T23:59:59.0000Z</end>
+        <gain>1</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="2">
+        <start>1999-06-17T00:00:00.0000Z</start>
+        <end>2000-11-13T23:59:59.0000Z</end>
+        <gain>1</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <decimation sampleRateNumerator="31" sampleRateDenominator="1"/>
+    </datalogger>
+    <datalogger publicID="Datalogger#20121207102655.642333.15234" name="HVAR.1999.289.H">
+      <description>HVAR.1999.289.H</description>
+      <gain>1</gain>
+      <maxClockDrift>0.31</maxClockDrift>
+      <calibration serialNumber="xxxx" channel="0">
+        <start>1999-10-16T00:00:00.0000Z</start>
+        <end>2001-02-08T23:59:59.0000Z</end>
+        <gain>1</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="1">
+        <start>1999-10-16T00:00:00.0000Z</start>
+        <end>2001-02-08T23:59:59.0000Z</end>
+        <gain>1</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="2">
+        <start>1999-10-16T00:00:00.0000Z</start>
+        <end>2001-02-08T23:59:59.0000Z</end>
+        <gain>1</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <decimation sampleRateNumerator="31" sampleRateDenominator="1"/>
+    </datalogger>
+    <datalogger publicID="Datalogger#20121207102701.146396.15241" name="ITHO.1999.297.H">
+      <description>ITHO.1999.297.H</description>
+      <gain>1</gain>
+      <maxClockDrift>0.31</maxClockDrift>
+      <calibration serialNumber="xxxx" channel="0">
+        <start>1999-10-24T00:00:00.0000Z</start>
+        <end>2001-07-22T23:59:59.0000Z</end>
+        <gain>1</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="1">
+        <start>1999-10-24T00:00:00.0000Z</start>
+        <end>2001-07-22T23:59:59.0000Z</end>
+        <gain>1</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="2">
+        <start>1999-10-24T00:00:00.0000Z</start>
+        <end>2001-07-22T23:59:59.0000Z</end>
+        <gain>1</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <decimation sampleRateNumerator="31" sampleRateDenominator="1"/>
+    </datalogger>
+    <datalogger publicID="Datalogger#20121207102706.715729.15248" name="KOUM.1999.301.H">
+      <description>KOUM.1999.301.H</description>
+      <gain>1</gain>
+      <maxClockDrift>0.31</maxClockDrift>
+      <calibration serialNumber="xxxx" channel="0">
+        <start>1999-10-28T00:00:00.0000Z</start>
+        <end>2001-05-11T23:59:59.0000Z</end>
+        <gain>1</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="1">
+        <start>1999-10-28T00:00:00.0000Z</start>
+        <end>2001-05-11T23:59:59.0000Z</end>
+        <gain>1</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="2">
+        <start>1999-10-28T00:00:00.0000Z</start>
+        <end>2001-05-11T23:59:59.0000Z</end>
+        <gain>1</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <decimation sampleRateNumerator="31" sampleRateDenominator="1"/>
+    </datalogger>
+    <datalogger publicID="Datalogger#20121207102712.218641.15255" name="MARJ.2000.145.H">
+      <description>MARJ.2000.145.H</description>
+      <gain>1</gain>
+      <maxClockDrift>0.31</maxClockDrift>
+      <calibration serialNumber="xxxx" channel="0">
+        <start>2000-05-24T00:00:00.0000Z</start>
+        <end>2001-06-13T23:59:59.0000Z</end>
+        <gain>1</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="1">
+        <start>2000-05-24T00:00:00.0000Z</start>
+        <end>2001-06-13T23:59:59.0000Z</end>
+        <gain>1</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="2">
+        <start>2000-05-24T00:00:00.0000Z</start>
+        <end>2001-06-13T23:59:59.0000Z</end>
+        <gain>1</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <decimation sampleRateNumerator="31" sampleRateDenominator="1"/>
+    </datalogger>
+    <responsePAZ publicID="ResponsePAZ#20121207102627.897901.15201" name="ABSA.2000.251.HE">
+      <type>A</type>
+      <gain>2.4e+10</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.0370184,0.0370296) (-0.0370184,-0.0370296)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207102627.901484.15203" name="ABSA.2000.251.HN">
+      <type>A</type>
+      <gain>2.4e+10</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.0370184,0.0370296) (-0.0370184,-0.0370296)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207102627.904711.15205" name="ABSA.2000.251.HZ">
+      <type>A</type>
+      <gain>2.4e+10</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.0370184,0.0370296) (-0.0370184,-0.0370296)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207102633.645534.15208" name="APER.1999.308.HE">
+      <type>A</type>
+      <gain>9.6e+10</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.0370184,0.0370296) (-0.0370184,-0.0370296)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207102633.649089.15210" name="APER.1999.308.HN">
+      <type>A</type>
+      <gain>9.6e+10</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.0370184,0.0370296) (-0.0370184,-0.0370296)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207102633.652358.15212" name="APER.1999.308.HZ">
+      <type>A</type>
+      <gain>9.6e+10</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.0370184,0.0370296) (-0.0370184,-0.0370296)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207102639.012011.15215" name="CDLV.1999.162.HE">
+      <type>A</type>
+      <gain>9.6e+10</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.0370184,0.0370296) (-0.0370184,-0.0370296)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207102639.015567.15217" name="CDLV.1999.162.HN">
+      <type>A</type>
+      <gain>9.6e+10</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.0370184,0.0370296) (-0.0370184,-0.0370296)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207102639.018822.15219" name="CDLV.1999.162.HZ">
+      <type>A</type>
+      <gain>9.6e+10</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.0370184,0.0370296) (-0.0370184,-0.0370296)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207102644.428738.15222" name="DUOK.1999.199.HE">
+      <type>A</type>
+      <gain>9.6e+10</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.0370184,0.0370296) (-0.0370184,-0.0370296)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207102644.432322.15224" name="DUOK.1999.199.HN">
+      <type>A</type>
+      <gain>9.6e+10</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.0370184,0.0370296) (-0.0370184,-0.0370296)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207102644.435673.15226" name="DUOK.1999.199.HZ">
+      <type>A</type>
+      <gain>9.6e+10</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.0370184,0.0370296) (-0.0370184,-0.0370296)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207102650.146353.15229" name="EBRE.1999.168.HE">
+      <type>A</type>
+      <gain>9.6e+10</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.0370184,0.0370296) (-0.0370184,-0.0370296)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207102650.149949.15231" name="EBRE.1999.168.HN">
+      <type>A</type>
+      <gain>9.6e+10</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.0370184,0.0370296) (-0.0370184,-0.0370296)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207102650.153205.15233" name="EBRE.1999.168.HZ">
+      <type>A</type>
+      <gain>9.6e+10</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.0370184,0.0370296) (-0.0370184,-0.0370296)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207102655.645176.15236" name="HVAR.1999.289.HE">
+      <type>A</type>
+      <gain>9.6e+10</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.0370184,0.0370296) (-0.0370184,-0.0370296)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207102655.648722.15238" name="HVAR.1999.289.HN">
+      <type>A</type>
+      <gain>9.6e+10</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.0370184,0.0370296) (-0.0370184,-0.0370296)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207102655.651985.15240" name="HVAR.1999.289.HZ">
+      <type>A</type>
+      <gain>9.6e+10</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.0370184,0.0370296) (-0.0370184,-0.0370296)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207102701.149403.15243" name="ITHO.1999.297.HE">
+      <type>A</type>
+      <gain>9.6e+10</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.0370184,0.0370296) (-0.0370184,-0.0370296)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207102701.152981.15245" name="ITHO.1999.297.HN">
+      <type>A</type>
+      <gain>9.6e+10</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.0370184,0.0370296) (-0.0370184,-0.0370296)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207102701.156285.15247" name="ITHO.1999.297.HZ">
+      <type>A</type>
+      <gain>9.6e+10</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.0370184,0.0370296) (-0.0370184,-0.0370296)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207102706.718745.15250" name="KOUM.1999.301.HE">
+      <type>A</type>
+      <gain>2.4e+10</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.0370184,0.0370296) (-0.0370184,-0.0370296)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207102706.722309.15252" name="KOUM.1999.301.HN">
+      <type>A</type>
+      <gain>2.4e+10</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.0370184,0.0370296) (-0.0370184,-0.0370296)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207102706.725602.15254" name="KOUM.1999.301.HZ">
+      <type>A</type>
+      <gain>2.4e+10</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.0370184,0.0370296) (-0.0370184,-0.0370296)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207102712.221606.15257" name="MARJ.2000.145.HE">
+      <type>A</type>
+      <gain>2.4e+10</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.0370184,0.0370296) (-0.0370184,-0.0370296)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207102712.225142.15259" name="MARJ.2000.145.HN">
+      <type>A</type>
+      <gain>2.4e+10</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.0370184,0.0370296) (-0.0370184,-0.0370296)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207102712.228441.15261" name="MARJ.2000.145.HZ">
+      <type>A</type>
+      <gain>2.4e+10</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>1</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>2</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.0370184,0.0370296) (-0.0370184,-0.0370296)</poles>
+    </responsePAZ>
+    <network publicID="Network/YF" code="YF">
+      <start>1980-01-01T00:00:00.0000Z</start>
+      <description>MIDSEA TEMPORARY NETWORK</description>
+      <type>BB</type>
+      <netClass>p</netClass>
+      <archive>ODC</archive>
+      <restricted>false</restricted>
+      <shared>true</shared>
+      <station publicID="Station/YF/ABSA/2000-09-07T00:00:00.0000Z" code="ABSA">
+        <start>2000-09-07T00:00:00.0000Z</start>
+        <end>2002-04-02T23:59:59.0000Z</end>
+        <description>DJEBEL ABABSIA, ALGERIA</description>
+        <latitude>36.276501</latitude>
+        <longitude>7.4734</longitude>
+        <elevation>1025</elevation>
+        <place>DJEBEL ABABSIA</place>
+        <country> ALGERIA</country>
+        <affiliation>MIDSEA TEMPORARY NETWORK</affiliation>
+        <archive>ODC</archive>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="SensorLocation#20121207100908.563553.3774" code="">
+          <start>2000-09-07T00:00:00.0000Z</start>
+          <end>2002-04-02T23:59:59.0000Z</end>
+          <latitude>36.276501</latitude>
+          <longitude>7.4734</longitude>
+          <elevation>1025</elevation>
+          <stream code="BHE" datalogger="Datalogger#20121207102627.894892.15199" sensor="Sensor#20121207102627.896156.15200">
+            <start>2000-09-07T00:00:00.0000Z</start>
+            <end>2002-04-02T23:59:59.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>31</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>2.4e+10</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHN" datalogger="Datalogger#20121207102627.894892.15199" sensor="Sensor#20121207102627.900541.15202">
+            <start>2000-09-07T00:00:00.0000Z</start>
+            <end>2002-04-02T23:59:59.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>31</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>2.4e+10</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHZ" datalogger="Datalogger#20121207102627.894892.15199" sensor="Sensor#20121207102627.903774.15204">
+            <start>2000-09-07T00:00:00.0000Z</start>
+            <end>2002-04-02T23:59:59.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>31</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>2.4e+10</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station/YF/APER/1999-11-04T00:00:00.0000Z" code="APER">
+        <start>1999-11-04T00:00:00.0000Z</start>
+        <end>2001-08-08T23:59:59.0000Z</end>
+        <description>APER, GREECE</description>
+        <latitude>35.5504</latitude>
+        <longitude>27.174101</longitude>
+        <elevation>250</elevation>
+        <place>APER</place>
+        <country> GREECE</country>
+        <affiliation>MIDSEA TEMPORARY NETWORK</affiliation>
+        <archive>ODC</archive>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="SensorLocation#20121207100859.906057.3460" code="">
+          <start>1999-11-04T00:00:00.0000Z</start>
+          <end>2001-08-08T23:59:59.0000Z</end>
+          <latitude>35.5504</latitude>
+          <longitude>27.174101</longitude>
+          <elevation>250</elevation>
+          <stream code="BHE" datalogger="Datalogger#20121207102633.642641.15206" sensor="Sensor#20121207102633.643768.15207">
+            <start>1999-11-04T00:00:00.0000Z</start>
+            <end>2001-08-08T23:59:59.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>31</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>9.6e+10</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHN" datalogger="Datalogger#20121207102633.642641.15206" sensor="Sensor#20121207102633.648157.15209">
+            <start>1999-11-04T00:00:00.0000Z</start>
+            <end>2001-08-08T23:59:59.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>31</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>9.6e+10</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHZ" datalogger="Datalogger#20121207102633.642641.15206" sensor="Sensor#20121207102633.651421.15211">
+            <start>1999-11-04T00:00:00.0000Z</start>
+            <end>2001-08-08T23:59:59.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>31</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>9.6e+10</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station/YF/CDLV/1999-06-11T00:00:00.0000Z" code="CDLV">
+        <start>1999-06-11T00:00:00.0000Z</start>
+        <end>2001-04-05T23:59:59.0000Z</end>
+        <description>CUEVA VERDES, CANARY ISLANDS</description>
+        <latitude>29.163099</latitude>
+        <longitude>-13.443899</longitude>
+        <elevation>37</elevation>
+        <place>CUEVA VERDES</place>
+        <country> CANARY ISLANDS</country>
+        <affiliation>MIDSEA TEMPORARY NETWORK</affiliation>
+        <archive>ODC</archive>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="SensorLocation#20121207100904.671209.3640" code="">
+          <start>1999-06-11T00:00:00.0000Z</start>
+          <end>2001-04-05T23:59:59.0000Z</end>
+          <latitude>29.163099</latitude>
+          <longitude>-13.443899</longitude>
+          <elevation>37</elevation>
+          <stream code="BHE" datalogger="Datalogger#20121207102639.009343.15213" sensor="Sensor#20121207102639.010413.15214">
+            <start>1999-06-11T00:00:00.0000Z</start>
+            <end>2001-04-05T23:59:59.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>31</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>9.6e+10</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHN" datalogger="Datalogger#20121207102639.009343.15213" sensor="Sensor#20121207102639.014651.15216">
+            <start>1999-06-11T00:00:00.0000Z</start>
+            <end>2001-04-05T23:59:59.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>31</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>9.6e+10</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHZ" datalogger="Datalogger#20121207102639.009343.15213" sensor="Sensor#20121207102639.017903.15218">
+            <start>1999-06-11T00:00:00.0000Z</start>
+            <end>2001-04-05T23:59:59.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>31</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>9.6e+10</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station/YF/DUOK/1999-07-18T00:00:00.0000Z" code="DUOK">
+        <start>1999-07-18T00:00:00.0000Z</start>
+        <end>2001-02-04T23:59:59.0000Z</end>
+        <description>DUGI OTOK, CROATIA</description>
+        <latitude>44.113098</latitude>
+        <longitude>14.9318</longitude>
+        <elevation>115</elevation>
+        <place>DUGI OTOK</place>
+        <country> CROATIA</country>
+        <affiliation>MIDSEA TEMPORARY NETWORK</affiliation>
+        <archive>ODC</archive>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="SensorLocation#20121207100901.555981.3536" code="">
+          <start>1999-07-18T00:00:00.0000Z</start>
+          <end>2001-02-04T23:59:59.0000Z</end>
+          <latitude>44.113098</latitude>
+          <longitude>14.9318</longitude>
+          <elevation>115</elevation>
+          <stream code="BHE" datalogger="Datalogger#20121207102644.425978.15220" sensor="Sensor#20121207102644.427068.15221">
+            <start>1999-07-18T00:00:00.0000Z</start>
+            <end>2001-02-04T23:59:59.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>31</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>9.6e+10</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHN" datalogger="Datalogger#20121207102644.425978.15220" sensor="Sensor#20121207102644.431338.15223">
+            <start>1999-07-18T00:00:00.0000Z</start>
+            <end>2001-02-04T23:59:59.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>31</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>9.6e+10</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHZ" datalogger="Datalogger#20121207102644.425978.15220" sensor="Sensor#20121207102644.434659.15225">
+            <start>1999-07-18T00:00:00.0000Z</start>
+            <end>2001-02-04T23:59:59.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>31</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>9.6e+10</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station/YF/EBRE/1999-06-17T00:00:00.0000Z" code="EBRE">
+        <start>1999-06-17T00:00:00.0000Z</start>
+        <end>2000-11-13T23:59:59.0000Z</end>
+        <description>EBRO ROQUETAS, SPAIN</description>
+        <latitude>40.8228</latitude>
+        <longitude>0.494</longitude>
+        <elevation>36</elevation>
+        <place>EBRO ROQUETAS</place>
+        <country> SPAIN</country>
+        <affiliation>MIDSEA TEMPORARY NETWORK</affiliation>
+        <archive>ODC</archive>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="SensorLocation#20121207100900.401172.3481" code="">
+          <start>1999-06-17T00:00:00.0000Z</start>
+          <end>2000-11-13T23:59:59.0000Z</end>
+          <latitude>40.8228</latitude>
+          <longitude>0.494</longitude>
+          <elevation>36</elevation>
+          <stream code="BHE" datalogger="Datalogger#20121207102650.143338.15227" sensor="Sensor#20121207102650.144594.15228">
+            <start>1999-06-17T00:00:00.0000Z</start>
+            <end>2000-11-13T23:59:59.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>31</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>9.6e+10</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHN" datalogger="Datalogger#20121207102650.143338.15227" sensor="Sensor#20121207102650.149005.15230">
+            <start>1999-06-17T00:00:00.0000Z</start>
+            <end>2000-11-13T23:59:59.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>31</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>9.6e+10</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHZ" datalogger="Datalogger#20121207102650.143338.15227" sensor="Sensor#20121207102650.152273.15232">
+            <start>1999-06-17T00:00:00.0000Z</start>
+            <end>2000-11-13T23:59:59.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>31</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>9.6e+10</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station/YF/HVAR/1999-10-16T00:00:00.0000Z" code="HVAR">
+        <start>1999-10-16T00:00:00.0000Z</start>
+        <end>2001-02-08T23:59:59.0000Z</end>
+        <description>HVAR, CROATIA</description>
+        <latitude>43.177601</latitude>
+        <longitude>16.448999</longitude>
+        <elevation>250</elevation>
+        <place>HVAR</place>
+        <country> CROATIA</country>
+        <affiliation>MIDSEA TEMPORARY NETWORK</affiliation>
+        <archive>ODC</archive>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="SensorLocation#20121207100859.624932.3449" code="">
+          <start>1999-10-16T00:00:00.0000Z</start>
+          <end>2001-02-08T23:59:59.0000Z</end>
+          <latitude>43.177601</latitude>
+          <longitude>16.448999</longitude>
+          <elevation>250</elevation>
+          <stream code="BHE" datalogger="Datalogger#20121207102655.642333.15234" sensor="Sensor#20121207102655.643399.15235">
+            <start>1999-10-16T00:00:00.0000Z</start>
+            <end>2001-02-08T23:59:59.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>31</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>9.6e+10</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHN" datalogger="Datalogger#20121207102655.642333.15234" sensor="Sensor#20121207102655.647785.15237">
+            <start>1999-10-16T00:00:00.0000Z</start>
+            <end>2001-02-08T23:59:59.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>31</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>9.6e+10</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHZ" datalogger="Datalogger#20121207102655.642333.15234" sensor="Sensor#20121207102655.65105.15239">
+            <start>1999-10-16T00:00:00.0000Z</start>
+            <end>2001-02-08T23:59:59.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>31</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>9.6e+10</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station/YF/ITHO/1999-10-24T00:00:00.0000Z" code="ITHO">
+        <start>1999-10-24T00:00:00.0000Z</start>
+        <end>2001-07-22T23:59:59.0000Z</end>
+        <description>ITHOMI, GREECE</description>
+        <latitude>37.1786</latitude>
+        <longitude>21.9252</longitude>
+        <elevation>400</elevation>
+        <place>ITHOMI</place>
+        <country> GREECE</country>
+        <affiliation>MIDSEA TEMPORARY NETWORK</affiliation>
+        <archive>ODC</archive>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="SensorLocation#20121207100910.124856.3820" code="">
+          <start>1999-10-24T00:00:00.0000Z</start>
+          <end>2001-07-22T23:59:59.0000Z</end>
+          <latitude>37.1786</latitude>
+          <longitude>21.9252</longitude>
+          <elevation>400</elevation>
+          <stream code="BHE" datalogger="Datalogger#20121207102701.146396.15241" sensor="Sensor#20121207102701.147641.15242">
+            <start>1999-10-24T00:00:00.0000Z</start>
+            <end>2001-07-22T23:59:59.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>31</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>9.6e+10</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHN" datalogger="Datalogger#20121207102701.146396.15241" sensor="Sensor#20121207102701.152045.15244">
+            <start>1999-10-24T00:00:00.0000Z</start>
+            <end>2001-07-22T23:59:59.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>31</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>9.6e+10</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHZ" datalogger="Datalogger#20121207102701.146396.15241" sensor="Sensor#20121207102701.155332.15246">
+            <start>1999-10-24T00:00:00.0000Z</start>
+            <end>2001-07-22T23:59:59.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>31</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>9.6e+10</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station/YF/KOUM/1999-10-28T00:00:00.0000Z" code="KOUM">
+        <start>1999-10-28T00:00:00.0000Z</start>
+        <end>2001-05-11T23:59:59.0000Z</end>
+        <description>KOUMARADEI, GREECE</description>
+        <latitude>37.704102</latitude>
+        <longitude>26.8377</longitude>
+        <elevation>340</elevation>
+        <place>KOUMARADEI</place>
+        <country> GREECE</country>
+        <affiliation>MIDSEA TEMPORARY NETWORK</affiliation>
+        <archive>ODC</archive>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="SensorLocation#20121207100905.865264.3684" code="">
+          <start>1999-10-28T00:00:00.0000Z</start>
+          <end>2001-05-11T23:59:59.0000Z</end>
+          <latitude>37.704102</latitude>
+          <longitude>26.8377</longitude>
+          <elevation>340</elevation>
+          <stream code="BHE" datalogger="Datalogger#20121207102706.715729.15248" sensor="Sensor#20121207102706.716973.15249">
+            <start>1999-10-28T00:00:00.0000Z</start>
+            <end>2001-05-11T23:59:59.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>31</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>2.4e+10</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHN" datalogger="Datalogger#20121207102706.715729.15248" sensor="Sensor#20121207102706.721401.15251">
+            <start>1999-10-28T00:00:00.0000Z</start>
+            <end>2001-05-11T23:59:59.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>31</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>2.4e+10</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHZ" datalogger="Datalogger#20121207102706.715729.15248" sensor="Sensor#20121207102706.724639.15253">
+            <start>1999-10-28T00:00:00.0000Z</start>
+            <end>2001-05-11T23:59:59.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>31</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>2.4e+10</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station/YF/MARJ/2000-05-24T00:00:00.0000Z" code="MARJ">
+        <start>2000-05-24T00:00:00.0000Z</start>
+        <end>2001-06-13T23:59:59.0000Z</end>
+        <description>AL MARJ, LIBYA</description>
+        <latitude>32.522598</latitude>
+        <longitude>20.8776</longitude>
+        <elevation>300</elevation>
+        <place>AL MARJ</place>
+        <country> LIBYA</country>
+        <affiliation>MIDSEA TEMPORARY NETWORK</affiliation>
+        <archive>ODC</archive>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="SensorLocation#20121207100902.232697.3558" code="">
+          <start>2000-05-24T00:00:00.0000Z</start>
+          <end>2001-06-13T23:59:59.0000Z</end>
+          <latitude>32.522598</latitude>
+          <longitude>20.8776</longitude>
+          <elevation>300</elevation>
+          <stream code="BHE" datalogger="Datalogger#20121207102712.218641.15255" sensor="Sensor#20121207102712.219865.15256">
+            <start>2000-05-24T00:00:00.0000Z</start>
+            <end>2001-06-13T23:59:59.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>31</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>2.4e+10</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHN" datalogger="Datalogger#20121207102712.218641.15255" sensor="Sensor#20121207102712.224207.15258">
+            <start>2000-05-24T00:00:00.0000Z</start>
+            <end>2001-06-13T23:59:59.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>31</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>2.4e+10</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHZ" datalogger="Datalogger#20121207102712.218641.15255" sensor="Sensor#20121207102712.227458.15260">
+            <start>2000-05-24T00:00:00.0000Z</start>
+            <end>2001-06-13T23:59:59.0000Z</end>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>31</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>2.4e+10</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+    </network>
+  </Inventory>
+</seiscomp>

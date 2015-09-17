@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seiscomp xmlns="http://geofon.gfz-potsdam.de/ns/seiscomp3-schema/0.7" version="0.7">
+  <Inventory>
+    <sensor publicID="Sensor#20121207101556.960535.9056" name="OKGL.2008.001.HE00" response="ResponsePAZ#20121207101556.961927.9057">
+      <description>BBVS</description>
+      <model>BBVS</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="2">
+        <start>2008-01-01T00:00:00.0000Z</start>
+        <gain>1000</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207101556.964302.9058" name="OKGL.2008.001.HN00" response="ResponsePAZ#20121207101556.965032.9059">
+      <description>BBVS</description>
+      <model>BBVS</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="1">
+        <start>2008-01-01T00:00:00.0000Z</start>
+        <gain>1000</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20121207101556.967171.9060" name="OKGL.2008.001.HZ00" response="ResponsePAZ#20121207101556.967912.9061">
+      <description>BBVS</description>
+      <model>BBVS</model>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="0">
+        <start>2008-01-01T00:00:00.0000Z</start>
+        <gain>1000</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <datalogger publicID="Datalogger#20121207101556.959479.9055" name="OKGL.2008.001.H00">
+      <description>OKGL.2008.001.H00</description>
+      <gain>629327</gain>
+      <maxClockDrift>0</maxClockDrift>
+      <calibration serialNumber="xxxx" channel="0">
+        <start>2008-01-01T00:00:00.0000Z</start>
+        <gain>629327</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="1">
+        <start>2008-01-01T00:00:00.0000Z</start>
+        <gain>629327</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="2">
+        <start>2008-01-01T00:00:00.0000Z</start>
+        <gain>629327</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1"/>
+    </datalogger>
+    <responsePAZ publicID="ResponsePAZ#20121207101556.961927.9057" name="OKGL.2008.001.HE00">
+      <type>A</type>
+      <gain>1000</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>63168.8</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>4</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.07405,0.07405) (-0.07405,-0.07405) (-177.72,177.72) (-177.72,-177.72)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207101556.965032.9059" name="OKGL.2008.001.HN00">
+      <type>A</type>
+      <gain>1000</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>63168.8</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>4</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.07405,0.07405) (-0.07405,-0.07405) (-177.72,177.72) (-177.72,-177.72)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20121207101556.967912.9061" name="OKGL.2008.001.HZ00">
+      <type>A</type>
+      <gain>1000</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>63168.8</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>2</numberOfZeros>
+      <numberOfPoles>4</numberOfPoles>
+      <zeros>(0,0) (0,0)</zeros>
+      <poles>(-0.07405,0.07405) (-0.07405,-0.07405) (-177.72,177.72) (-177.72,-177.72)</poles>
+    </responsePAZ>
+    <network publicID="Network/DZ" code="DZ">
+      <start>1980-01-01T00:00:00.0000Z</start>
+      <description>Algerian National Seismic Network</description>
+      <institutions>REALSAS</institutions>
+      <region>Algeria</region>
+      <type>BB</type>
+      <netClass>p</netClass>
+      <archive>ODC</archive>
+      <restricted>false</restricted>
+      <shared>true</shared>
+      <station publicID="Station/DZ/OKGL/2008-01-01T00:00:00.0000Z" code="OKGL">
+        <start>2008-01-01T00:00:00.0000Z</start>
+        <description>OKGL  -  DJEBEL KEF GUELLAL</description>
+        <latitude>36.037</latitude>
+        <longitude>0.6561</longitude>
+        <elevation>594</elevation>
+        <place>OKGL  -  DJEBEL KEF GUELLAL</place>
+        <affiliation>Algerian National Seismic Network</affiliation>
+        <archive>ODC</archive>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="SensorLocation#20121207100905.312751.3662" code="00">
+          <start>2008-01-01T00:00:00.0000Z</start>
+          <latitude>36.037</latitude>
+          <longitude>0.6561</longitude>
+          <elevation>594</elevation>
+          <stream code="BHE" datalogger="Datalogger#20121207101556.959479.9055" sensor="Sensor#20121207101556.960535.9056">
+            <start>2008-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>629327000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHN" datalogger="Datalogger#20121207101556.959479.9055" sensor="Sensor#20121207101556.964302.9058">
+            <start>2008-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>629327000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHZ" datalogger="Datalogger#20121207101556.959479.9055" sensor="Sensor#20121207101556.967171.9060">
+            <start>2008-01-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>629327000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+    </network>
+  </Inventory>
+</seiscomp>

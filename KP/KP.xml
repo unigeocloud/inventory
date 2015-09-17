@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seiscomp xmlns="http://geofon.gfz-potsdam.de/ns/seiscomp3-schema/0.7" version="0.7">
+  <Inventory>
+    <sensor publicID="Sensor#20140113140251.094376.7" name="UPNV.2013.213.HE" response="ResponsePAZ#20140113140251.094592.8">
+      <description>Trillium</description>
+      <model>Trillium</model>
+      <manufacturer>Nanometrics</manufacturer>
+      <unit>M/S</unit>
+      <remark/>
+      <calibration serialNumber="yyyy" channel="2">
+        <start>2013-08-01T00:00:00.0000Z</start>
+        <gain>1164.04</gain>
+        <gainFrequency>0.02</gainFrequency>
+        <remark/>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20140113140251.095429.10" name="UPNV.2013.213.HN" response="ResponsePAZ#20140113140251.095495.11">
+      <description>Trillium</description>
+      <model>Trillium</model>
+      <manufacturer>Nanometrics</manufacturer>
+      <unit>M/S</unit>
+      <remark/>
+      <calibration serialNumber="yyyy" channel="1">
+        <start>2013-08-01T00:00:00.0000Z</start>
+        <gain>1164.04</gain>
+        <gainFrequency>0.02</gainFrequency>
+        <remark/>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20140113140251.096179.13" name="UPNV.2013.213.HZ" response="ResponsePAZ#20140113140251.096241.14">
+      <description>Trillium</description>
+      <model>Trillium</model>
+      <manufacturer>Nanometrics</manufacturer>
+      <unit>M/S</unit>
+      <remark/>
+      <calibration serialNumber="yyyy" channel="0">
+        <start>2013-08-01T00:00:00.0000Z</start>
+        <gain>1164.04</gain>
+        <gainFrequency>0.02</gainFrequency>
+        <remark/>
+      </calibration>
+    </sensor>
+    <datalogger publicID="Datalogger#20140603153203.181731.5" name="UPNV.2013.213.BHE">
+      <description>UPNV.2013.213.BHE</description>
+      <gain>419430</gain>
+      <maxClockDrift>0.01</maxClockDrift>
+      <remark/>
+      <calibration serialNumber="xxxx" channel="2">
+        <start>2013-08-01T00:00:00.0000Z</start>
+        <gain>419430</gain>
+        <gainFrequency>0.1</gainFrequency>
+        <remark/>
+      </calibration>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <analogueFilterChain/>
+        <digitalFilterChain>ResponseFIR#20140603153203.182107.6</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger#20140603153203.183433.9" name="UPNV.2013.213.BHN">
+      <description>UPNV.2013.213.BHN</description>
+      <gain>419430</gain>
+      <maxClockDrift>0.01</maxClockDrift>
+      <remark/>
+      <calibration serialNumber="xxxx" channel="1">
+        <start>2013-08-01T00:00:00.0000Z</start>
+        <gain>419430</gain>
+        <gainFrequency>0.1</gainFrequency>
+        <remark/>
+      </calibration>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <analogueFilterChain/>
+        <digitalFilterChain>ResponseFIR#20140603153203.183505.10</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger#20140603153203.184292.13" name="UPNV.2013.213.BHZ">
+      <description>UPNV.2013.213.BHZ</description>
+      <gain>419430</gain>
+      <maxClockDrift>0.01</maxClockDrift>
+      <remark/>
+      <calibration serialNumber="xxxx" channel="0">
+        <start>2013-08-01T00:00:00.0000Z</start>
+        <gain>419430</gain>
+        <gainFrequency>0.1</gainFrequency>
+        <remark/>
+      </calibration>
+      <decimation sampleRateNumerator="20" sampleRateDenominator="1">
+        <analogueFilterChain/>
+        <digitalFilterChain>ResponseFIR#20140113140251.095858.12</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger#20140603153203.185119.17" name="UPNV.2013.213.HHE">
+      <description>UPNV.2013.213.HHE</description>
+      <gain>419430</gain>
+      <maxClockDrift>0.01</maxClockDrift>
+      <remark/>
+      <calibration serialNumber="xxxx" channel="2">
+        <start>2013-08-01T00:00:00.0000Z</start>
+        <gain>419430</gain>
+        <gainFrequency>0.3</gainFrequency>
+        <remark/>
+      </calibration>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <analogueFilterChain/>
+        <digitalFilterChain>ResponseFIR#20140603153203.185173.18</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger#20140603153203.185948.19" name="UPNV.2013.213.HHN">
+      <description>UPNV.2013.213.HHN</description>
+      <gain>419430</gain>
+      <maxClockDrift>0.01</maxClockDrift>
+      <remark/>
+      <calibration serialNumber="xxxx" channel="1">
+        <start>2013-08-01T00:00:00.0000Z</start>
+        <gain>419430</gain>
+        <gainFrequency>0.3</gainFrequency>
+        <remark/>
+      </calibration>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <analogueFilterChain/>
+        <digitalFilterChain>ResponseFIR#20140603153203.186005.20</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger#20140603153203.186691.21" name="UPNV.2013.213.HHZ">
+      <description>UPNV.2013.213.HHZ</description>
+      <gain>419430</gain>
+      <maxClockDrift>0.01</maxClockDrift>
+      <remark/>
+      <calibration serialNumber="xxxx" channel="0">
+        <start>2013-08-01T00:00:00.0000Z</start>
+        <gain>419430</gain>
+        <gainFrequency>0.3</gainFrequency>
+        <remark/>
+      </calibration>
+      <decimation sampleRateNumerator="100" sampleRateDenominator="1">
+        <analogueFilterChain/>
+        <digitalFilterChain>ResponseFIR#20140113140251.098041.17</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger#20140603153203.18784.23" name="UPNV.2013.213.LHE">
+      <description>UPNV.2013.213.LHE</description>
+      <gain>419430</gain>
+      <maxClockDrift>0.01</maxClockDrift>
+      <remark/>
+      <calibration serialNumber="xxxx" channel="2">
+        <start>2013-08-01T00:00:00.0000Z</start>
+        <gain>419430</gain>
+        <gainFrequency>0.02</gainFrequency>
+        <remark/>
+      </calibration>
+      <decimation sampleRateNumerator="1" sampleRateDenominator="1">
+        <analogueFilterChain/>
+        <digitalFilterChain>ResponseFIR#20140603153203.187897.24</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger#20140603153203.188454.25" name="UPNV.2013.213.LHN">
+      <description>UPNV.2013.213.LHN</description>
+      <gain>419430</gain>
+      <maxClockDrift>0.01</maxClockDrift>
+      <remark/>
+      <calibration serialNumber="xxxx" channel="1">
+        <start>2013-08-01T00:00:00.0000Z</start>
+        <gain>419430</gain>
+        <gainFrequency>0.02</gainFrequency>
+        <remark/>
+      </calibration>
+      <decimation sampleRateNumerator="1" sampleRateDenominator="1">
+        <analogueFilterChain/>
+        <digitalFilterChain>ResponseFIR#20140603153203.188509.26</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger#20140603153203.189075.27" name="UPNV.2013.213.LHZ">
+      <description>UPNV.2013.213.LHZ</description>
+      <gain>419430</gain>
+      <maxClockDrift>0.01</maxClockDrift>
+      <remark/>
+      <calibration serialNumber="xxxx" channel="0">
+        <start>2013-08-01T00:00:00.0000Z</start>
+        <gain>419430</gain>
+        <gainFrequency>0.02</gainFrequency>
+        <remark/>
+      </calibration>
+      <decimation sampleRateNumerator="1" sampleRateDenominator="1">
+        <analogueFilterChain/>
+        <digitalFilterChain>ResponseFIR#20140113140251.100207.20</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <responsePAZ publicID="ResponsePAZ#20140113140251.094592.8" name="UPNV.2013.213.HE">
+      <type>A</type>
+      <gain>1164.04</gain>
+      <gainFrequency>0.02</gainFrequency>
+      <normalizationFactor>453314</normalizationFactor>
+      <normalizationFrequency>0.02</normalizationFrequency>
+      <numberOfZeros>5</numberOfZeros>
+      <numberOfPoles>7</numberOfPoles>
+      <zeros>(0,0) (0,0) (-91.66,0) (-160.1,0) (-3207,0)</zeros>
+      <poles>(-0.0177,0.0176) (-0.0177,-0.0176) (-126.7,0) (-192,259.1) (-192,-259.1) (-557.7,1143) (-557.7,-1143)</poles>
+      <remark/>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20140113140251.095495.11" name="UPNV.2013.213.HN">
+      <type>A</type>
+      <gain>1164.04</gain>
+      <gainFrequency>0.02</gainFrequency>
+      <normalizationFactor>453314</normalizationFactor>
+      <normalizationFrequency>0.02</normalizationFrequency>
+      <numberOfZeros>5</numberOfZeros>
+      <numberOfPoles>7</numberOfPoles>
+      <zeros>(0,0) (0,0) (-91.66,0) (-160.1,0) (-3207,0)</zeros>
+      <poles>(-0.0177,0.0176) (-0.0177,-0.0176) (-126.7,0) (-192,259.1) (-192,-259.1) (-557.7,1143) (-557.7,-1143)</poles>
+      <remark/>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20140113140251.096241.14" name="UPNV.2013.213.HZ">
+      <type>A</type>
+      <gain>1164.04</gain>
+      <gainFrequency>0.02</gainFrequency>
+      <normalizationFactor>453314</normalizationFactor>
+      <normalizationFrequency>0.02</normalizationFrequency>
+      <numberOfZeros>5</numberOfZeros>
+      <numberOfPoles>7</numberOfPoles>
+      <zeros>(0,0) (0,0) (-91.66,0) (-160.1,0) (-3207,0)</zeros>
+      <poles>(-0.0177,0.0176) (-0.0177,-0.0176) (-126.7,0) (-192,259.1) (-192,-259.1) (-557.7,1143) (-557.7,-1143)</poles>
+      <remark/>
+    </responsePAZ>
+    <responseFIR publicID="ResponseFIR#20140603153203.182107.6" name="UPNV..BHE.2013.213.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>34</delay>
+      <correction>34</correction>
+      <numberOfCoefficients>67</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>3.77162e-17 -1.69713e-10 1.71838e-08 -2.43964e-07 2.58252e-07 1.5609e-06 -1.81704e-06 2.41376e-06 -3.70491e-06 8.73276e-07 3.64235e-05 -0.000246833 -0.000393599 0.000655961 -0.00102025 0.00123051 -0.00106043 0.000288613 0.00122683 -0.00345855 0.00614628 -0.00875821 0.0105179 -0.0104955 0.00776882 -0.0016282 -0.00764096 0.0198944 -0.0387619 0.0551044 -0.0713696 0.0833036 -0.0867195 0.0628769 0.889951 0.167002 -0.128687 0.100726 -0.0755007 0.0515952 -0.0311146 0.011006 0.000476173 -0.00823882 0.0124211 -0.0131333 0.0114417 -0.00845235 0.00513644 -0.00220567 6.47577e-05 0.00117235 -0.00160962 0.00148359 -0.00106529 0.000590532 -0.000273576 -0.000321484 3.98515e-05 1.0833e-06 -4.64297e-06 2.88448e-06 -1.62081e-06 1.31617e-06 4.72519e-07 -3.29637e-07 2.71423e-08</coefficients>
+      <remark/>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20140603153203.183505.10" name="UPNV..BHN.2013.213.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>34</delay>
+      <correction>34</correction>
+      <numberOfCoefficients>67</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>3.77162e-17 -1.69713e-10 1.71838e-08 -2.43964e-07 2.58252e-07 1.5609e-06 -1.81704e-06 2.41376e-06 -3.70491e-06 8.73276e-07 3.64235e-05 -0.000246833 -0.000393599 0.000655961 -0.00102025 0.00123051 -0.00106043 0.000288613 0.00122683 -0.00345855 0.00614628 -0.00875821 0.0105179 -0.0104955 0.00776882 -0.0016282 -0.00764096 0.0198944 -0.0387619 0.0551044 -0.0713696 0.0833036 -0.0867195 0.0628769 0.889951 0.167002 -0.128687 0.100726 -0.0755007 0.0515952 -0.0311146 0.011006 0.000476173 -0.00823882 0.0124211 -0.0131333 0.0114417 -0.00845235 0.00513644 -0.00220567 6.47577e-05 0.00117235 -0.00160962 0.00148359 -0.00106529 0.000590532 -0.000273576 -0.000321484 3.98515e-05 1.0833e-06 -4.64297e-06 2.88448e-06 -1.62081e-06 1.31617e-06 4.72519e-07 -3.29637e-07 2.71423e-08</coefficients>
+      <remark/>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20140113140251.095858.12" name="UPNV..BHZ.2013.213.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>34</delay>
+      <correction>34</correction>
+      <numberOfCoefficients>67</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>3.77162e-17 -1.69713e-10 1.71838e-08 -2.43964e-07 2.58252e-07 1.5609e-06 -1.81704e-06 2.41376e-06 -3.70491e-06 8.73276e-07 3.64235e-05 -0.000246833 -0.000393599 0.000655961 -0.00102025 0.00123051 -0.00106043 0.000288613 0.00122683 -0.00345855 0.00614628 -0.00875821 0.0105179 -0.0104955 0.00776882 -0.0016282 -0.00764096 0.0198944 -0.0387619 0.0551044 -0.0713696 0.0833036 -0.0867195 0.0628769 0.889951 0.167002 -0.128687 0.100726 -0.0755007 0.0515952 -0.0311146 0.011006 0.000476173 -0.00823882 0.0124211 -0.0131333 0.0114417 -0.00845235 0.00513644 -0.00220567 6.47577e-05 0.00117235 -0.00160962 0.00148359 -0.00106529 0.000590532 -0.000273576 -0.000321484 3.98515e-05 1.0833e-06 -4.64297e-06 2.88448e-06 -1.62081e-06 1.31617e-06 4.72519e-07 -3.29637e-07 2.71423e-08</coefficients>
+      <remark/>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20140603153203.185173.18" name="UPNV..HHE.2013.213.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>33</delay>
+      <correction>33</correction>
+      <numberOfCoefficients>65</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>6.43711e-14 6.58258e-08 -7.53118e-07 6.26743e-07 2.47069e-06 -3.15256e-06 5.4824e-06 -7.78113e-06 5.10559e-06 3.31568e-05 -0.000268238 -0.000353056 0.000622489 -0.00101006 0.00127276 -0.00118431 0.000512697 0.000910091 -0.00309045 0.00581107 -0.00857787 0.0106344 -0.0110399 0.00881308 -0.00307778 -0.00464808 0.016017 -0.0372088 0.0536013 -0.0726163 0.0878551 -0.0979276 0.0946782 0.888891 0.138422 -0.115331 0.0951158 -0.0743198 0.0521264 -0.0339684 0.0122831 -0.00140239 -0.00585837 0.0107618 -0.0121488 0.0110276 -0.00845663 0.00539437 -0.00257072 0.000426728 0.000881093 -0.00141391 0.00137928 -0.00102993 0.000596299 -0.000303778 -0.000298773 3.41094e-05 5.26981e-06 -8.09269e-06 5.56459e-06 -2.95383e-06 2.26184e-06 7.69085e-07 -7.49759e-07</coefficients>
+      <remark/>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20140603153203.186005.20" name="UPNV..HHN.2013.213.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>33</delay>
+      <correction>33</correction>
+      <numberOfCoefficients>65</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>6.43711e-14 6.58258e-08 -7.53118e-07 6.26743e-07 2.47069e-06 -3.15256e-06 5.4824e-06 -7.78113e-06 5.10559e-06 3.31568e-05 -0.000268238 -0.000353056 0.000622489 -0.00101006 0.00127276 -0.00118431 0.000512697 0.000910091 -0.00309045 0.00581107 -0.00857787 0.0106344 -0.0110399 0.00881308 -0.00307778 -0.00464808 0.016017 -0.0372088 0.0536013 -0.0726163 0.0878551 -0.0979276 0.0946782 0.888891 0.138422 -0.115331 0.0951158 -0.0743198 0.0521264 -0.0339684 0.0122831 -0.00140239 -0.00585837 0.0107618 -0.0121488 0.0110276 -0.00845663 0.00539437 -0.00257072 0.000426728 0.000881093 -0.00141391 0.00137928 -0.00102993 0.000596299 -0.000303778 -0.000298773 3.41094e-05 5.26981e-06 -8.09269e-06 5.56459e-06 -2.95383e-06 2.26184e-06 7.69085e-07 -7.49759e-07</coefficients>
+      <remark/>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20140113140251.098041.17" name="UPNV..HHZ.2013.213.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>33</delay>
+      <correction>33</correction>
+      <numberOfCoefficients>65</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>6.43711e-14 6.58258e-08 -7.53118e-07 6.26743e-07 2.47069e-06 -3.15256e-06 5.4824e-06 -7.78113e-06 5.10559e-06 3.31568e-05 -0.000268238 -0.000353056 0.000622489 -0.00101006 0.00127276 -0.00118431 0.000512697 0.000910091 -0.00309045 0.00581107 -0.00857787 0.0106344 -0.0110399 0.00881308 -0.00307778 -0.00464808 0.016017 -0.0372088 0.0536013 -0.0726163 0.0878551 -0.0979276 0.0946782 0.888891 0.138422 -0.115331 0.0951158 -0.0743198 0.0521264 -0.0339684 0.0122831 -0.00140239 -0.00585837 0.0107618 -0.0121488 0.0110276 -0.00845663 0.00539437 -0.00257072 0.000426728 0.000881093 -0.00141391 0.00137928 -0.00102993 0.000596299 -0.000303778 -0.000298773 3.41094e-05 5.26981e-06 -8.09269e-06 5.56459e-06 -2.95383e-06 2.26184e-06 7.69085e-07 -7.49759e-07</coefficients>
+      <remark/>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20140603153203.187897.24" name="UPNV..LHE.2013.213.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>16</delay>
+      <correction>16</correction>
+      <numberOfCoefficients>31</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>-1.22004e-16 3.37278e-11 -3.19094e-07 1.26313e-06 -1.48491e-05 0.00332199 0.00108323 -0.00624046 0.0126566 -0.0157663 0.00956762 0.010711 -0.0456425 0.0897523 -0.132437 0.155289 0.812371 0.185415 -0.140609 0.0897083 -0.0424397 0.00714001 0.0121051 -0.0169307 0.0127735 -0.00586424 0.000645177 0.00348713 -8.53058e-05 2.29713e-06 -2.2583e-07</coefficients>
+      <remark/>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20140603153203.188509.26" name="UPNV..LHN.2013.213.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>16</delay>
+      <correction>16</correction>
+      <numberOfCoefficients>31</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>-1.22004e-16 3.37278e-11 -3.19094e-07 1.26313e-06 -1.48491e-05 0.00332199 0.00108323 -0.00624046 0.0126566 -0.0157663 0.00956762 0.010711 -0.0456425 0.0897523 -0.132437 0.155289 0.812371 0.185415 -0.140609 0.0897083 -0.0424397 0.00714001 0.0121051 -0.0169307 0.0127735 -0.00586424 0.000645177 0.00348713 -8.53058e-05 2.29713e-06 -2.2583e-07</coefficients>
+      <remark/>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20140113140251.100207.20" name="UPNV..LHZ.2013.213.stage_3">
+      <gain>1</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>16</delay>
+      <correction>16</correction>
+      <numberOfCoefficients>31</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>-1.22004e-16 3.37278e-11 -3.19094e-07 1.26313e-06 -1.48491e-05 0.00332199 0.00108323 -0.00624046 0.0126566 -0.0157663 0.00956762 0.010711 -0.0456425 0.0897523 -0.132437 0.155289 0.812371 0.185415 -0.140609 0.0897083 -0.0424397 0.00714001 0.0121051 -0.0169307 0.0127735 -0.00586424 0.000645177 0.00348713 -8.53058e-05 2.29713e-06 -2.2583e-07</coefficients>
+      <remark/>
+    </responseFIR>
+    <network publicID="Network#20140113140251.091128.2" code="KP">
+      <start>1980-01-01T00:00:00.0000Z</start>
+      <description>Korea Polar Seismic Network</description>
+      <institutions>GLISN</institutions>
+      <region>Greenland</region>
+      <type>VBB</type>
+      <netClass>p</netClass>
+      <archive>GFZ</archive>
+      <restricted>false</restricted>
+      <shared>true</shared>
+      <remark/>
+      <station publicID="Station#20140113140251.091376.3" code="UPNV">
+        <start>2013-08-01T00:00:00.0000Z</start>
+        <description>GLISN Station Upernavik, Greenland</description>
+        <latitude>72.7829</latitude>
+        <longitude>-56.1395</longitude>
+        <elevation>38</elevation>
+        <place>Upernavik, Greenland</place>
+        <country>Greenland</country>
+        <affiliation>GLISN</affiliation>
+        <archive>GFZ</archive>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <remark/>
+        <sensorLocation publicID="SensorLocation#20140113140251.092627.4" code="">
+          <start>2013-08-01T00:00:00.0000Z</start>
+          <latitude>72.7829</latitude>
+          <longitude>-56.1395</longitude>
+          <elevation>38</elevation>
+          <auxStream code="ACE" device="UPNV.2013.213.330">
+            <start>2013-08-01T00:00:00.0000Z</start>
+            <format>Steim2</format>
+            <flags>H</flags>
+            <restricted>false</restricted>
+          </auxStream>
+          <auxStream code="LCE" device="UPNV.2013.213.330">
+            <start>2013-08-01T00:00:00.0000Z</start>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+          </auxStream>
+          <auxStream code="LCQ" device="UPNV.2013.213.330">
+            <start>2013-08-01T00:00:00.0000Z</start>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+          </auxStream>
+          <auxStream code="LOG" device="UPNV.2013.213.330">
+            <start>2013-08-01T00:00:00.0000Z</start>
+            <format>Steim2</format>
+            <flags>H</flags>
+            <restricted>false</restricted>
+          </auxStream>
+          <auxStream code="OCF" device="UPNV.2013.213.330">
+            <start>2013-08-01T00:00:00.0000Z</start>
+            <format>Steim2</format>
+            <flags>H</flags>
+            <restricted>false</restricted>
+          </auxStream>
+          <auxStream code="VCO" device="UPNV.2013.213.330">
+            <start>2013-08-01T00:00:00.0000Z</start>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+          </auxStream>
+          <auxStream code="VEA" device="UPNV.2013.213.330">
+            <start>2013-08-01T00:00:00.0000Z</start>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+          </auxStream>
+          <auxStream code="VEC" device="UPNV.2013.213.330">
+            <start>2013-08-01T00:00:00.0000Z</start>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+          </auxStream>
+          <auxStream code="VEP" device="UPNV.2013.213.330">
+            <start>2013-08-01T00:00:00.0000Z</start>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+          </auxStream>
+          <auxStream code="VKI" device="UPNV.2013.213.330">
+            <start>2013-08-01T00:00:00.0000Z</start>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+          </auxStream>
+          <auxStream code="VM1" device="UPNV.2013.213.330">
+            <start>2013-08-01T00:00:00.0000Z</start>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+          </auxStream>
+          <auxStream code="VM2" device="UPNV.2013.213.330">
+            <start>2013-08-01T00:00:00.0000Z</start>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+          </auxStream>
+          <auxStream code="VM3" device="UPNV.2013.213.330">
+            <start>2013-08-01T00:00:00.0000Z</start>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+          </auxStream>
+          <auxStream code="VPB" device="UPNV.2013.213.330">
+            <start>2013-08-01T00:00:00.0000Z</start>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+          </auxStream>
+          <stream code="BHE" datalogger="Datalogger#20140603153203.181731.5" sensor="Sensor#20140113140251.094376.7">
+            <start>2013-08-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>488727000</gain>
+            <gainFrequency>0.1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHN" datalogger="Datalogger#20140603153203.183433.9" sensor="Sensor#20140113140251.095429.10">
+            <start>2013-08-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>488727000</gain>
+            <gainFrequency>0.1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHZ" datalogger="Datalogger#20140603153203.184292.13" sensor="Sensor#20140113140251.096179.13">
+            <start>2013-08-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>20</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>488727000</gain>
+            <gainFrequency>0.1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHE" datalogger="Datalogger#20140603153203.185119.17" sensor="Sensor#20140113140251.094376.7">
+            <start>2013-08-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>488810000</gain>
+            <gainFrequency>0.3</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHN" datalogger="Datalogger#20140603153203.185948.19" sensor="Sensor#20140113140251.095429.10">
+            <start>2013-08-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>488810000</gain>
+            <gainFrequency>0.3</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="HHZ" datalogger="Datalogger#20140603153203.186691.21" sensor="Sensor#20140113140251.096179.13">
+            <start>2013-08-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>100</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>488810000</gain>
+            <gainFrequency>0.3</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="LHE" datalogger="Datalogger#20140603153203.18784.23" sensor="Sensor#20140113140251.094376.7">
+            <start>2013-08-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>1</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>488233000</gain>
+            <gainFrequency>0.02</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="LHN" datalogger="Datalogger#20140603153203.188454.25" sensor="Sensor#20140113140251.095429.10">
+            <start>2013-08-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>1</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>488233000</gain>
+            <gainFrequency>0.02</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="LHZ" datalogger="Datalogger#20140603153203.189075.27" sensor="Sensor#20140113140251.096179.13">
+            <start>2013-08-01T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>1</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>488233000</gain>
+            <gainFrequency>0.02</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>G</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+    </network>
+  </Inventory>
+</seiscomp>
